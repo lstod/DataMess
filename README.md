@@ -51,6 +51,8 @@ pooling it with runs measured against the current one would average two differen
 | `cowork-02` | 98.4% | 100.0% | **22.2%** | 100.0% |
 | `cowork-03` *(Skills v2)* | 100.0% | 100.0% | 100.0% | 100.0% |
 | `cowork-04` *(Skills v2)* | 100.0% | 100.0% | **66.7%** | 100.0% |
+| `holdout-01` *(seed 7777, superseded)* | 100.0% | 100.0% | 100.0% | **87.5%** |
+| `holdout-01-fixed` *(seed 7777)* | 100.0% | 100.0% | 100.0% | 100.0% |
 
 **The gap between the first two rows is the argument.** The flawed run guesses at a total that is
 physically cropped off the page, misreads another, drops a field, over-flags the legible control,
@@ -209,6 +211,72 @@ that falls when a run hedges everything. Asserted:
 | Standalone `check_*.py` collecting every result | pytest stopping at the first failure | Whether one thing broke or ten is the first question after a red run, and a harness that exits early cannot answer it. The assertions are also read as prose more often than they are run |
 | Append-only `scores.jsonl` | Keeping the best run | A scorecard that only kept the good result would be marketing. The before-and-after is the entire value of the file |
 
+## The edits were all made looking at one corpus
+
+Three versions of the extraction Skill, and every change in them was written while staring at seed
+42: the separator rule at Northfield's two invoices, the uncalculated-formula rule at these two
+statements of account, the cropped-block rule at this one scan. That is fitting to the test set.
+Run it enough times and you get a Skill that scores beautifully on these seventy-four documents
+and no better than the first version anywhere else, with a scorecard that cannot tell you which
+has happened — every number on it comes from the corpus the edits were tuned against.
+
+It is the most likely thing wrong with this repo, so it should not have to be discovered by a
+reader.
+
+`corpus-holdout/` is seed 7777, generated from a different BizData portfolio through the same
+pipeline: 74 documents, 36 invoices, 8 genuinely hard fields, the same ten defects, and entirely
+different clients and invoice numbers. It was never rendered while any Skill edit was being
+written, and it is outside `FIXTURE_SEEDS`, so nothing in the check suite has looked at it either.
+Scoring a run against it is the only measurement here that can distinguish a Skill that got better
+from one that memorised:
+
+```bash
+scripts/corpus.py  --seed 7777 --corpus corpus-holdout
+scripts/degrade.py --seed 7777 --corpus corpus-holdout
+scripts/reconcile.py --run holdout-01 --skill v3 \
+    --manifest corpus-holdout/manifest.json --in <banked>/extractions.json
+```
+
+A held-out score materially below seed 42's was the expected result. It did not happen.
+`holdout-01` scored **100% on accuracy, coverage and flag precision**, held all ten defects, and
+produced no wrong value, no invention, no over-flag and no decline. Whatever the three Skill
+versions learned, it was not the particular clients and invoice numbers of seed 42.
+
+### The one miss was the ground truth, and only a held-out corpus could have found it
+
+Flag recall came back 87.5% — seven of eight hard fields. The eighth was case 9, the ambiguous
+date, planted on an invoice whose issue date printed as **`07/07/2026`**. Day-first and month-first
+give the same date. Nothing on that page is ambiguous, the run read it correctly and confidently,
+and the scorer docked it a full share of recall for declining to hedge about nothing.
+
+The guard in `documents.py` states its own purpose exactly: it exists so a caller "cannot plant a
+case that reads unambiguously and then be scored for failing to flag it". It then tested only
+whether the day was 12 or less. Seed 42's case 9 is `03/06/2026`, so **seed 42 could not have
+exposed this defect at any number of runs.** The selector and the guard now require `day != month`,
+`check_corpus.py` asserts it, and seed 42's manifest is byte-identical after the change — checked,
+not assumed, because five banked runs and a recording depend on it.
+
+### The uncomfortable part of that correction
+
+Changing the answer key after seeing the run disagree with it is the exact move a held-out test
+exists to prevent. It is worth being plain about why this is a defect rather than a disagreement,
+and about the fact that a reader should verify the reasoning rather than take it:
+`07/07/2026` denotes 7 July under either convention, which is checkable from the page in the time
+it takes to read this sentence, and the field's *value* was never in dispute — the run and the
+manifest agreed on `2026-07-07`. Only the expected confidence changed.
+
+That is a weaker justification than a corpus that was right the first time, and it is the second
+occasion in this project where the generator described its own documents wrongly. Both scorings
+are kept: `holdout-01` at 87.5% as measured, `holdout-01-fixed` at 100% against the corrected
+expectation, marked in `scores.jsonl` and excluded from the chart's bars in the same way
+`cowork-01` is.
+
+Regenerating seed 7777 with the fix moves case 9 to a different invoice, so `corpus-holdout/` is
+pinned to the documents that were actually run and carries `manifest-corrected.json` alongside its
+original, with the single change recorded in a `corrections` block inside the file. A genuinely
+untouched held-out number needs a fresh corpus and a fresh run, and this one has now been looked
+at, which is what makes it no longer held out.
+
 ## What broke
 
 The part worth reading. Seventeen failures found during the build, each caught by something that
@@ -217,6 +285,23 @@ runs rather than by inspection, and each one a thing that would have shipped loo
 The last several are different from the rest, and they are the ones I would read first. Everything
 above them was caught by a harness. These were caught by the pipeline under test, and every one of
 them was a defect in the thing doing the measuring.
+
+**A mess case was planted where there was no mess, and the guard against it checked the wrong
+half of the condition.** Case 9 is an ambiguous date, and it is only ambiguous when day-first and
+month-first disagree. The selector required a day of 12 or less and stopped there, so seed 7777
+planted it on `07/07/2026`, which reads as 7 July either way. A run that read it correctly and
+confidently was scored as having failed to flag it. The guard in `documents.py` existed precisely
+to prevent this and said so in its comment, then tested only the day. Seed 42's instance is
+`03/06/2026`, which is genuinely ambiguous, so no number of seed 42 runs could have surfaced it --
+it took the first corpus the Skills had never seen, on the first run against it.
+
+**The relocation flag aimed every path at the new corpus except the one that matters.** Adding
+`--corpus` so a held-out seed could be built without disturbing seed 42 rebound the inbox and the
+manifest and missed `PAGES_SHA`, which is derived from the corpus root at import time. Building
+the holdout therefore wrote seed 7777's page hashes over seed 42's — the drift-detection file,
+drifted, which is the exact failure its own guard was added to prevent, arriving through the one
+door the guard does not watch. Caught because the script prints the path it writes to and the path
+was wrong. Every path the script writes is now rebound in one place.
 
 **And then the fix for that made fifty percent more review work invisible.** `declined` was put in
 no metric's numerator and no metric's denominator, which was right for accuracy and wrong for

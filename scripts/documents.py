@@ -354,9 +354,10 @@ def build_invoice(
     # Case 9 only goes on a date that is genuinely ambiguous. Caller checks the day is 12 or
     # less before asking for it; asserted here so a future caller cannot plant a case that
     # reads unambiguously and then be scored for failing to flag it.
-    if ambiguous_issue_date and issued.day > 12:
+    if ambiguous_issue_date and (issued.day > 12 or issued.day == issued.month):
         raise ValueError(
-            f"case 9 needs a day of 12 or less to be ambiguous; {issued} is not"
+            f"case 9 needs a day of 12 or less and a day unequal to the month "
+            f"to be ambiguous; {issued} is not"
         )
 
     # Case 2's control is set larger, with a wider margin and one column fewer. Everything

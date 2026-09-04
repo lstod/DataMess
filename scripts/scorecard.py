@@ -336,6 +336,17 @@ def chart(runs: list[dict[str, Any]], out: Path) -> None:
         "DocMess — extraction scorecard",
         fontsize=14, weight="bold", x=0.06, ha="left", y=0.955, color="#1F3864",
     )
+    # The PNG travels on its own -- into a README, into a recording -- so anything needed to read
+    # it honestly has to be printed on it. A held-out group is measured against a different
+    # corpus, and bars of the same height are not the same claim: the seed 42 groups were scored
+    # on the documents the Skills were edited while looking at, and the held-out group was not.
+    if any("held-out" in g["label"] for g in groups):
+        fig.text(
+            0.06, 0.025,
+            "Held-out is a different corpus (seed 7777), unseen while the Skills were edited. "
+            "Compare it with the seed 42 groups cautiously: the same height is not the same claim.",
+            fontsize=8, color="#666", ha="left", style="italic",
+        )
     fig.savefig(out, facecolor="white")
     plt.close(fig)
 

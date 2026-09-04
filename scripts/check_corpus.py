@@ -342,14 +342,24 @@ def check_mess_cases(manifest: dict[str, Any], checks: Checks) -> None:
     # 9 -- the ambiguous date.
     nine = block["9"]
     dated = entries.get(nine["document_id"])
-    day = int(dated["fields"]["issue_date"]["value"][8:10]) if dated else 99
+    iso = dated["fields"]["issue_date"]["value"] if dated else ""
+    day = int(iso[8:10]) if dated else 99
+    month = int(iso[5:7]) if dated else 0
+    # `day != month` is the half of this that was missing, and a held-out seed found it. Seed
+    # 7777 planted case 9 on 07/07/2026, where day-first and month-first give the same date --
+    # so the page was not ambiguous, the run read it correctly and confidently, and the scorer
+    # docked it a full share of flag recall for failing to hedge about nothing. The guard in
+    # documents.py said in its own comment that it existed to stop a case being planted where it
+    # "reads unambiguously and then be scored for failing to flag it", and then tested only the
+    # day. Seed 42's case 9 is 03/06/2026, so seed 42 could never have shown this.
     checks.add(
-        "mess 9: the ambiguous date is flagged low and its day is genuinely 12 or less",
+        "mess 9: the ambiguous date is genuinely ambiguous -- day 12 or less, and not the month",
         dated is not None
         and dated["fields"]["issue_date"].get("expected_confidence") == "low"
-        and day <= 12,
-        f"{nine['document_id']}: {dated['fields']['issue_date']['value'] if dated else '?'} "
-        f"(day {day}, ambiguous)",
+        and day <= 12
+        and day != month,
+        f"{nine['document_id']}: {iso or '?'} (day {day}, month {month}, "
+        f"{'ambiguous' if day != month else 'READS THE SAME BOTH WAYS'})",
     )
 
     # 10 -- the sandwich.

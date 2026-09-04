@@ -147,7 +147,13 @@ def plan_mess(rng: Random, p: Any, invoices: list[dict[str, Any]]) -> dict[str, 
 
     # Case 9 -- an ambiguous date. Only meaningful where the day is 12 or less, because
     # 03/09/2026 is genuinely two dates and 24/09/2026 is only one.
-    ambiguous = [i for i in invoices if i["issued_at"].day <= 12 and free(i, taken)]
+    ambiguous = [
+        i
+        for i in invoices
+        if i["issued_at"].day <= 12
+        and i["issued_at"].day != i["issued_at"].month
+        and free(i, taken)
+    ]
     case_9 = ambiguous[rng.randrange(len(ambiguous))]
     taken.add(case_9["id"])
 
