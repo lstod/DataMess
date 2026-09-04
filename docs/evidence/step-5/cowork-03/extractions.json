@@ -1,0 +1,4782 @@
+[
+  {
+    "source_file": "Ashcombe Health Partners - SOW - SOW-2025-013 FINAL v3 (signed).docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow",
+    "document_id": "SOW-2025-013",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "sow_ref": {
+        "value": "SOW-2025-013",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'SOW reference' row"
+      },
+      "client_name": {
+        "value": "Ashcombe Health Partners",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Payments Assessment",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "start_date": {
+        "value": "2025-09-28",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Commencement date' row"
+      },
+      "end_date": {
+        "value": "2026-12-08",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Completion date' row"
+      },
+      "fee_type": {
+        "value": "Time and materials",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Fee basis' row"
+      },
+      "ceiling_hours": {
+        "value": "3200.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling hours' row"
+      },
+      "ceiling_amount": {
+        "value": "812800.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling amount' row"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Payment terms' row"
+      }
+    }
+  },
+  {
+    "source_file": "Ashcombe Health Partners - SOW - SOW-2025-015 FINAL v3 (signed).docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow",
+    "document_id": "SOW-2025-015",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "sow_ref": {
+        "value": "SOW-2025-015",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'SOW reference' row"
+      },
+      "client_name": {
+        "value": "Ashcombe Health Partners",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Workforce Planning Programme",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "start_date": {
+        "value": "2025-11-04",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Commencement date' row"
+      },
+      "end_date": {
+        "value": "2026-10-16",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Completion date' row"
+      },
+      "fee_type": {
+        "value": "Time and materials",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Fee basis' row"
+      },
+      "ceiling_hours": {
+        "value": "3540.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling hours' row"
+      },
+      "ceiling_amount": {
+        "value": "1069080.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling amount' row"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Payment terms' row"
+      }
+    }
+  },
+  {
+    "source_file": "Ashcombe Health Partners - SOW - SOW-2026-003 FINAL v3 (signed).docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow",
+    "document_id": "SOW-2026-003",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "sow_ref": {
+        "value": "SOW-2026-003",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'SOW reference' row"
+      },
+      "client_name": {
+        "value": "Ashcombe Health Partners",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Revenue Assurance Optimisation",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "start_date": {
+        "value": "2026-01-09",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Commencement date' row"
+      },
+      "end_date": {
+        "value": "2026-10-31",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Completion date' row"
+      },
+      "fee_type": {
+        "value": "Time and materials",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Fee basis' row"
+      },
+      "ceiling_hours": {
+        "value": "940.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling hours' row"
+      },
+      "ceiling_amount": {
+        "value": "232180.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling amount' row"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Payment terms' row"
+      }
+    }
+  },
+  {
+    "source_file": "Braemar Retail Corporation - SOW - SOW-2025-008 FINAL v3 (signed).docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow",
+    "document_id": "SOW-2025-008",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "sow_ref": {
+        "value": "SOW-2025-008",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'SOW reference' row"
+      },
+      "client_name": {
+        "value": "Braemar Retail Corporation",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Regulatory Reporting Programme",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "start_date": {
+        "value": "2025-11-16",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Commencement date' row"
+      },
+      "end_date": {
+        "value": "2027-05-12",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Completion date' row"
+      },
+      "fee_type": {
+        "value": "Fixed fee",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Fee basis' row"
+      },
+      "ceiling_hours": {
+        "value": "1020.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling hours' row"
+      },
+      "ceiling_amount": {
+        "value": "274176.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling amount' row"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Payment terms' row"
+      }
+    }
+  },
+  {
+    "source_file": "Braemar Retail Corporation - SOW - SOW-2025-016 FINAL v3 (signed).docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow",
+    "document_id": "SOW-2025-016",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "sow_ref": {
+        "value": "SOW-2025-016",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'SOW reference' row"
+      },
+      "client_name": {
+        "value": "Braemar Retail Corporation",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Field Operations Rollout",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "start_date": {
+        "value": "2025-09-01",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Commencement date' row"
+      },
+      "end_date": {
+        "value": "2027-03-09",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Completion date' row"
+      },
+      "fee_type": {
+        "value": "Time and materials",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Fee basis' row"
+      },
+      "ceiling_hours": {
+        "value": "7980.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling hours' row"
+      },
+      "ceiling_amount": {
+        "value": "1955100.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling amount' row"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Payment terms' row"
+      }
+    }
+  },
+  {
+    "source_file": "Braemar Retail Corporation - SOW - SOW-2026-007 FINAL v3 (signed).docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow",
+    "document_id": "SOW-2026-007",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "sow_ref": {
+        "value": "SOW-2026-007",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'SOW reference' row"
+      },
+      "client_name": {
+        "value": "Braemar Retail Corporation",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Revenue Assurance Discovery",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "start_date": {
+        "value": "2026-02-19",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Commencement date' row"
+      },
+      "end_date": {
+        "value": "2027-02-27",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Completion date' row"
+      },
+      "fee_type": {
+        "value": "Time and materials",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Fee basis' row"
+      },
+      "ceiling_hours": {
+        "value": "1480.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling hours' row"
+      },
+      "ceiling_amount": {
+        "value": "393680.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling amount' row"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Payment terms' row"
+      }
+    }
+  },
+  {
+    "source_file": "Fernhollow Financial Trust - SOW - SOW-2025-023 FINAL v3 (signed).docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow",
+    "document_id": "SOW-2025-023",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "sow_ref": {
+        "value": "SOW-2025-023",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'SOW reference' row"
+      },
+      "client_name": {
+        "value": "Fernhollow Financial Trust",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Asset Register Assessment",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "start_date": {
+        "value": "2025-12-30",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Commencement date' row"
+      },
+      "end_date": {
+        "value": "2027-01-11",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Completion date' row"
+      },
+      "fee_type": {
+        "value": "Fixed fee",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Fee basis' row"
+      },
+      "ceiling_hours": {
+        "value": "1840.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling hours' row"
+      },
+      "ceiling_amount": {
+        "value": "455731.20",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling amount' row"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Payment terms' row"
+      }
+    }
+  },
+  {
+    "source_file": "Fernhollow Financial Trust - SOW - SOW-2026-022 FINAL v3 (signed).docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow",
+    "document_id": "SOW-2026-022",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "sow_ref": {
+        "value": "SOW-2026-022",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'SOW reference' row"
+      },
+      "client_name": {
+        "value": "Fernhollow Financial Trust",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Billing Platform Assessment",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "start_date": {
+        "value": "2026-02-19",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Commencement date' row"
+      },
+      "end_date": {
+        "value": "2027-01-25",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Completion date' row"
+      },
+      "fee_type": {
+        "value": "Time and materials",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Fee basis' row"
+      },
+      "ceiling_hours": {
+        "value": "1520.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling hours' row"
+      },
+      "ceiling_amount": {
+        "value": "443840.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling amount' row"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Payment terms' row"
+      }
+    }
+  },
+  {
+    "source_file": "Lowmarsh Retail Partners - SOW - SOW-2025-011 FINAL v3 (signed).docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow",
+    "document_id": "SOW-2025-011",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "sow_ref": {
+        "value": "SOW-2025-011",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'SOW reference' row"
+      },
+      "client_name": {
+        "value": "Lowmarsh Retail Partners",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Inventory Modernisation",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "start_date": {
+        "value": "2025-10-11",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Commencement date' row"
+      },
+      "end_date": {
+        "value": "2027-05-02",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Completion date' row"
+      },
+      "fee_type": {
+        "value": "Fixed fee",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Fee basis' row"
+      },
+      "ceiling_hours": {
+        "value": "4940.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling hours' row"
+      },
+      "ceiling_amount": {
+        "value": "1332713.20",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling amount' row"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Payment terms' row"
+      }
+    }
+  },
+  {
+    "source_file": "Merrivale Maritime Corporation - SOW - SOW-2026-029 FINAL v3 (signed).docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow",
+    "document_id": "SOW-2026-029",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "sow_ref": {
+        "value": "SOW-2026-029",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'SOW reference' row"
+      },
+      "client_name": {
+        "value": "Merrivale Maritime Corporation",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Grid Analytics Integration",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "start_date": {
+        "value": "2026-01-26",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Commencement date' row"
+      },
+      "end_date": {
+        "value": "2026-12-26",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Completion date' row"
+      },
+      "fee_type": {
+        "value": "Fixed fee",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Fee basis' row"
+      },
+      "ceiling_hours": {
+        "value": "1960.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling hours' row"
+      },
+      "ceiling_amount": {
+        "value": "482904.80",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling amount' row"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Payment terms' row"
+      }
+    }
+  },
+  {
+    "source_file": "Northfield Municipal Group - SOW - SOW-2026-009 FINAL v3 (signed).docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow",
+    "document_id": "SOW-2026-009",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "sow_ref": {
+        "value": "SOW-2026-009",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'SOW reference' row"
+      },
+      "client_name": {
+        "value": "Northfield Municipal Group",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Pricing Modernisation",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "start_date": {
+        "value": "2026-01-23",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Commencement date' row"
+      },
+      "end_date": {
+        "value": "2026-11-10",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Completion date' row"
+      },
+      "fee_type": {
+        "value": "Fixed fee",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Fee basis' row"
+      },
+      "ceiling_hours": {
+        "value": "780.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling hours' row"
+      },
+      "ceiling_amount": {
+        "value": "241737.60",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling amount' row"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Payment terms' row"
+      }
+    }
+  },
+  {
+    "source_file": "Oakhaven Logistics Collective - SOW - SOW-2026-002 FINAL v3 (signed).docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow",
+    "document_id": "SOW-2026-002",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "sow_ref": {
+        "value": "SOW-2026-002",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'SOW reference' row"
+      },
+      "client_name": {
+        "value": "Oakhaven Logistics Collective",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Credit Risk Migration",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "start_date": {
+        "value": "2026-01-28",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Commencement date' row"
+      },
+      "end_date": {
+        "value": "2026-08-21",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Completion date' row"
+      },
+      "fee_type": {
+        "value": "Fixed fee",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Fee basis' row"
+      },
+      "ceiling_hours": {
+        "value": "1980.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling hours' row"
+      },
+      "ceiling_amount": {
+        "value": "420591.60",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling amount' row"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Payment terms' row"
+      }
+    }
+  },
+  {
+    "source_file": "Pentland Media Group - SOW - SOW-2026-005 FINAL v3 (signed).docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow",
+    "document_id": "SOW-2026-005",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "sow_ref": {
+        "value": "SOW-2026-005",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'SOW reference' row"
+      },
+      "client_name": {
+        "value": "Pentland Media Group",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Procurement Modernisation",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "start_date": {
+        "value": "2026-01-31",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Commencement date' row"
+      },
+      "end_date": {
+        "value": "2026-10-10",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Completion date' row"
+      },
+      "fee_type": {
+        "value": "Fixed fee",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Fee basis' row"
+      },
+      "ceiling_hours": {
+        "value": "2690.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling hours' row"
+      },
+      "ceiling_amount": {
+        "value": "133038.43",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling amount' row"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Payment terms' row"
+      }
+    }
+  },
+  {
+    "source_file": "Quarrymoor Transit Partners - SOW - SOW-2025-020 FINAL v3 (signed).docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow",
+    "document_id": "SOW-2025-020",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "sow_ref": {
+        "value": "SOW-2025-020",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'SOW reference' row"
+      },
+      "client_name": {
+        "value": "Quarrymoor Transit Partners",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Inventory Implementation",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "start_date": {
+        "value": "2025-11-30",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Commencement date' row"
+      },
+      "end_date": {
+        "value": "2027-04-16",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Completion date' row"
+      },
+      "fee_type": {
+        "value": "Fixed fee",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Fee basis' row"
+      },
+      "ceiling_hours": {
+        "value": "4840.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling hours' row"
+      },
+      "ceiling_amount": {
+        "value": "1154243.20",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling amount' row"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Payment terms' row"
+      }
+    }
+  },
+  {
+    "source_file": "Stonebridge Energy Group - SOW - SOW-2025-025 FINAL v3 (signed).docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow",
+    "document_id": "SOW-2025-025",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "sow_ref": {
+        "value": "SOW-2025-025",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'SOW reference' row"
+      },
+      "client_name": {
+        "value": "Stonebridge Energy Group",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Billing Platform Implementation",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "start_date": {
+        "value": "2025-11-11",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Commencement date' row"
+      },
+      "end_date": {
+        "value": "2026-10-25",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Completion date' row"
+      },
+      "fee_type": {
+        "value": "Time and materials",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Fee basis' row"
+      },
+      "ceiling_hours": {
+        "value": "2440.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling hours' row"
+      },
+      "ceiling_amount": {
+        "value": "688080.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling amount' row"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Payment terms' row"
+      }
+    }
+  },
+  {
+    "source_file": "Stonebridge Energy Group - SOW - SOW-2026-012 FINAL v3 (signed).docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow",
+    "document_id": "SOW-2026-012",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "sow_ref": {
+        "value": "SOW-2026-012",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'SOW reference' row"
+      },
+      "client_name": {
+        "value": "Stonebridge Energy Group",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Credit Risk Programme",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "start_date": {
+        "value": "2026-01-14",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Commencement date' row"
+      },
+      "end_date": {
+        "value": "2026-09-24",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Completion date' row"
+      },
+      "fee_type": {
+        "value": "Time and materials",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Fee basis' row"
+      },
+      "ceiling_hours": {
+        "value": "1480.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling hours' row"
+      },
+      "ceiling_amount": {
+        "value": "478040.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling amount' row"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Payment terms' row"
+      }
+    }
+  },
+  {
+    "source_file": "Thornbury Retail Partners - SOW - SOW-2025-018 FINAL v3 (signed).docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow",
+    "document_id": "SOW-2025-018",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "sow_ref": {
+        "value": "SOW-2025-018",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'SOW reference' row"
+      },
+      "client_name": {
+        "value": "Thornbury Retail Partners",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Payments Modernisation",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "start_date": {
+        "value": "2025-12-04",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Commencement date' row"
+      },
+      "end_date": {
+        "value": "2026-12-04",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Completion date' row"
+      },
+      "fee_type": {
+        "value": "Fixed fee",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Fee basis' row"
+      },
+      "ceiling_hours": {
+        "value": "820.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling hours' row"
+      },
+      "ceiling_amount": {
+        "value": "217906.80",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling amount' row"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Payment terms' row"
+      }
+    }
+  },
+  {
+    "source_file": "Thornbury Retail Partners - SOW - SOW-2025-019 FINAL v3 (signed).docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow",
+    "document_id": "SOW-2025-019",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "sow_ref": {
+        "value": "SOW-2025-019",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'SOW reference' row"
+      },
+      "client_name": {
+        "value": "Thornbury Retail Partners",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Grid Analytics Assessment",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "start_date": {
+        "value": "2025-12-03",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Commencement date' row"
+      },
+      "end_date": {
+        "value": "2026-10-10",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Completion date' row"
+      },
+      "fee_type": {
+        "value": "Time and materials",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Fee basis' row"
+      },
+      "ceiling_hours": {
+        "value": "940.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling hours' row"
+      },
+      "ceiling_amount": {
+        "value": "262260.00",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Ceiling amount' row"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Payment terms' row"
+      }
+    }
+  },
+  {
+    "source_file": "Ashcombe Health Partners - SOW-2025-015 amendment A4.docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow_amendment",
+    "document_id": "SOW-2025-015-A4",
+    "supersedes": "SOW-2025-015",
+    "duplicate_of": null,
+    "fields": {
+      "amendment_ref": {
+        "value": "SOW-2025-015-A4",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Amendment reference' row"
+      },
+      "sow_ref": {
+        "value": "SOW-2025-015",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Amends SOW' row"
+      },
+      "client_name": {
+        "value": "Ashcombe Health Partners",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Workforce Planning Programme",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "effective_date": {
+        "value": "2026-04-22",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Effective date' row"
+      },
+      "ceiling_hours": {
+        "value": "3540.00",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling hours' row, Original column"
+      },
+      "ceiling_amount": {
+        "value": "1069080.00",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling amount (GBP)' row, Original column"
+      },
+      "end_date": {
+        "value": "2026-10-16",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Completion date' row, Original column"
+      },
+      "revised_ceiling_hours": {
+        "value": "4000.20",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling hours' row, Revised column"
+      },
+      "revised_ceiling_amount": {
+        "value": "1208060.40",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling amount (GBP)' row, Revised column"
+      },
+      "revised_end_date": {
+        "value": "2027-01-25",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Completion date' row, Revised column"
+      }
+    }
+  },
+  {
+    "source_file": "Braemar Retail Corporation - SOW-2026-007 amendment A2.docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow_amendment",
+    "document_id": "SOW-2026-007-A2",
+    "supersedes": "SOW-2026-007",
+    "duplicate_of": null,
+    "fields": {
+      "amendment_ref": {
+        "value": "SOW-2026-007-A2",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Amendment reference' row"
+      },
+      "sow_ref": {
+        "value": "SOW-2026-007",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Amends SOW' row"
+      },
+      "client_name": {
+        "value": "Braemar Retail Corporation",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Revenue Assurance Discovery",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "effective_date": {
+        "value": "2026-07-17",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Effective date' row"
+      },
+      "ceiling_hours": {
+        "value": "1480.00",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling hours' row, Original column"
+      },
+      "ceiling_amount": {
+        "value": "393680.00",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling amount (GBP)' row, Original column"
+      },
+      "end_date": {
+        "value": "2027-02-27",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Completion date' row, Original column"
+      },
+      "revised_ceiling_hours": {
+        "value": "1687.20",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling hours' row, Revised column"
+      },
+      "revised_ceiling_amount": {
+        "value": "448795.20",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling amount (GBP)' row, Revised column"
+      },
+      "revised_end_date": {
+        "value": "2027-04-01",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Completion date' row, Revised column"
+      }
+    }
+  },
+  {
+    "source_file": "Fernhollow Financial Trust - SOW-2025-023 amendment A6.docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow_amendment",
+    "document_id": "SOW-2025-023-A6",
+    "supersedes": "SOW-2025-023",
+    "duplicate_of": null,
+    "fields": {
+      "amendment_ref": {
+        "value": "SOW-2025-023-A6",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Amendment reference' row"
+      },
+      "sow_ref": {
+        "value": "SOW-2025-023",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Amends SOW' row"
+      },
+      "client_name": {
+        "value": "Fernhollow Financial Trust",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Asset Register Assessment",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "effective_date": {
+        "value": "2026-06-02",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Effective date' row"
+      },
+      "ceiling_hours": {
+        "value": "1840.00",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling hours' row, Original column"
+      },
+      "ceiling_amount": {
+        "value": "455731.20",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling amount (GBP)' row, Original column"
+      },
+      "end_date": {
+        "value": "2027-01-11",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Completion date' row, Original column"
+      },
+      "revised_ceiling_hours": {
+        "value": "2373.60",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling hours' row, Revised column"
+      },
+      "revised_ceiling_amount": {
+        "value": "587893.25",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling amount (GBP)' row, Revised column"
+      },
+      "revised_end_date": {
+        "value": "2027-02-10",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Completion date' row, Revised column"
+      }
+    }
+  },
+  {
+    "source_file": "Lowmarsh Retail Partners - SOW-2025-011 amendment A3.docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow_amendment",
+    "document_id": "SOW-2025-011-A3",
+    "supersedes": "SOW-2025-011",
+    "duplicate_of": null,
+    "fields": {
+      "amendment_ref": {
+        "value": "SOW-2025-011-A3",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Amendment reference' row"
+      },
+      "sow_ref": {
+        "value": "SOW-2025-011",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Amends SOW' row"
+      },
+      "client_name": {
+        "value": "Lowmarsh Retail Partners",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Inventory Modernisation",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "effective_date": {
+        "value": "2025-12-13",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Effective date' row"
+      },
+      "ceiling_hours": {
+        "value": "4940.00",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling hours' row, Original column"
+      },
+      "ceiling_amount": {
+        "value": "1332713.20",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling amount (GBP)' row, Original column"
+      },
+      "end_date": {
+        "value": "2027-05-02",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Completion date' row, Original column"
+      },
+      "revised_ceiling_hours": {
+        "value": "6175.00",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling hours' row, Revised column"
+      },
+      "revised_ceiling_amount": {
+        "value": "1665891.50",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling amount (GBP)' row, Revised column"
+      },
+      "revised_end_date": {
+        "value": "2027-06-30",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Completion date' row, Revised column"
+      }
+    }
+  },
+  {
+    "source_file": "Oakhaven Logistics Collective - SOW-2026-002 amendment A1.docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow_amendment",
+    "document_id": "SOW-2026-002-A1",
+    "supersedes": "SOW-2026-002",
+    "duplicate_of": null,
+    "fields": {
+      "amendment_ref": {
+        "value": "SOW-2026-002-A1",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Amendment reference' row"
+      },
+      "sow_ref": {
+        "value": "SOW-2026-002",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Amends SOW' row"
+      },
+      "client_name": {
+        "value": "Oakhaven Logistics Collective",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Credit Risk Migration",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "effective_date": {
+        "value": "2026-07-26",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Effective date' row"
+      },
+      "ceiling_hours": {
+        "value": "1980.00",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling hours' row, Original column"
+      },
+      "ceiling_amount": {
+        "value": "420591.60",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling amount (GBP)' row, Original column"
+      },
+      "end_date": {
+        "value": "2026-08-21",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Completion date' row, Original column"
+      },
+      "revised_ceiling_hours": {
+        "value": "2316.60",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling hours' row, Revised column"
+      },
+      "revised_ceiling_amount": {
+        "value": "492092.17",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling amount (GBP)' row, Revised column"
+      },
+      "revised_end_date": {
+        "value": "2026-12-04",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Completion date' row, Revised column"
+      }
+    }
+  },
+  {
+    "source_file": "Thornbury Retail Partners - SOW-2025-019 amendment A5.docx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "sow_amendment",
+    "document_id": "SOW-2025-019-A5",
+    "supersedes": "SOW-2025-019",
+    "duplicate_of": null,
+    "fields": {
+      "amendment_ref": {
+        "value": "SOW-2025-019-A5",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Amendment reference' row"
+      },
+      "sow_ref": {
+        "value": "SOW-2025-019",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Amends SOW' row"
+      },
+      "client_name": {
+        "value": "Thornbury Retail Partners",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Client' row"
+      },
+      "engagement_name": {
+        "value": "Grid Analytics Assessment",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Engagement' row"
+      },
+      "effective_date": {
+        "value": "2026-03-03",
+        "confidence": "high",
+        "evidence": "page 1, engagement details table, 'Effective date' row"
+      },
+      "ceiling_hours": {
+        "value": "940.00",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling hours' row, Original column"
+      },
+      "ceiling_amount": {
+        "value": "262260.00",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling amount (GBP)' row, Original column"
+      },
+      "end_date": {
+        "value": "2026-10-10",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Completion date' row, Original column"
+      },
+      "revised_ceiling_hours": {
+        "value": "1297.20",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling hours' row, Revised column"
+      },
+      "revised_ceiling_amount": {
+        "value": "361918.80",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Ceiling amount (GBP)' row, Revised column"
+      },
+      "revised_end_date": {
+        "value": "2026-12-07",
+        "confidence": "high",
+        "evidence": "page 1, revised ceiling table, 'Completion date' row, Revised column"
+      }
+    }
+  },
+  {
+    "source_file": "INV-2026-0876.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-0876",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-0876",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Oakhaven Logistics Collective",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2026-002",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-80678",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-07-09",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-08-08",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "79912.83",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-9814.23",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "70098.60",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "14019.72",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "84118.32",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "INV-2026-0906.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-0906",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-0906",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Ashcombe Health Partners",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2026-003",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-57052",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-06-04",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-07-04",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "17337.79",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-1293.79",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "16044.00",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "3208.80",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "19252.80",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "INV-2026-0966.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-0966",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-0966",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Pentland Media Group",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2026-005",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-58393",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-07",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-07-25",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-08-24",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "33546.78",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-5830.44",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "27716.34",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "5543.27",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "33259.61",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "INV-2026-1038.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1038",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1038",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Braemar Retail Corporation",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2026-007",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-65296",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-07-03",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-08-02",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "32064.86",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-4422.78",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "27642.08",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "5528.42",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "33170.50",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "INV-2026-1146.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1146",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1146",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Stonebridge Energy Group",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2026-012",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-37653",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-06-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-07-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "31696.19",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-1512.44",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "30183.75",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "6036.75",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "36220.50",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "INV-2026-1152.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1152",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1152",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Stonebridge Energy Group",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2026-012",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-22224",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-07-04",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-08-03",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "36894.48",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-2097.81",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "34796.67",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "6959.33",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "41756.00",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "INV-2026-1158.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1158",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1158",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Stonebridge Energy Group",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2026-012",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-46517",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-07",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-08-04",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-09-03",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "50819.00",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-5829.00",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "44990.00",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "8998.00",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "53988.00",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "INV-2026-1338.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1338",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1338",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Ashcombe Health Partners",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2025-015",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-77033",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-07",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-08-07",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-09-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "72146.82",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-4723.24",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "67423.58",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "13484.72",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "80908.30",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "INV-2026-1392.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1392",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1392",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Braemar Retail Corporation",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2025-016",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-24621",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-06-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-07-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "20558.49",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-3580.66",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "16977.83",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "3395.57",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "20373.40",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "INV-2026-1398.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1398",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1398",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Braemar Retail Corporation",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2025-016",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-98501",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-07-09",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-08-08",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "29907.72",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-1470.64",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "28437.08",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "5687.42",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "34124.50",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "INV-2026-1404.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1404",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1404",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Braemar Retail Corporation",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2025-016",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-66531",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-07",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-08-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-09-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "32597.80",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-1567.05",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "31030.75",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "6206.15",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "37236.90",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "INV-2026-1458.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1458",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1458",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Thornbury Retail Partners",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2025-018",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-16057",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-08",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-08-07",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-09-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "57571.95",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-5689.37",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "51882.58",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "10376.51",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "62259.09",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "INV-2026-1494.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1494",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1494",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Thornbury Retail Partners",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2025-019",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-36071",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-06-04",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-07-04",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "14795.01",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-3137.34",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "11657.67",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "2331.53",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "13989.20",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "INV-2026-1602.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1602",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1602",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Fernhollow Financial Trust",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2026-022",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-11220",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-07-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-08-04",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "38860.26",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-3850.43",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "35009.83",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "7001.97",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "42011.80",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "INV-2026-1608.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1608",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1608",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Fernhollow Financial Trust",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2026-022",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-47606",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-07",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-08-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-09-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "46668.24",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-9351.99",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "37316.25",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "7463.25",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "44779.50",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "INV-2026-1614.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1614",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1614",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Fernhollow Financial Trust",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2025-023",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-77839",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-05-10",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-06-09",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "196942.78",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-34181.64",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "162761.14",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "32552.23",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "195313.37",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "INV-2026-1704.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1704",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1704",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Stonebridge Energy Group",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2025-025",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-92719",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-06-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-07-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "50409.48",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-6214.06",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "44195.42",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "8839.08",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "53034.50",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "scan_20260814_114082.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-0912",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-0912",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Ashcombe Health Partners",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2026-003",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-63883",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-07-07",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-08-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "28951.42",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-4214.42",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "24737.00",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "4947.40",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "29684.40",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "scan_20260814_114765.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-0918",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-0918",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Ashcombe Health Partners",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2026-003",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-93507",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-07",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-08-08",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-09-07",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "14360.33",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-717.83",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "13642.50",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "2728.50",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "16371.00",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "scan_20260814_115456.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1032",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1032",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Braemar Retail Corporation",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2026-007",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-19116",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-06-07",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-07-07",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "29279.55",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-4053.55",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "25226.00",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "5045.20",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "30271.20",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "scan_20260814_115806.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1044",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1044",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Braemar Retail Corporation",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2026-007",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-63264",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-07",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-08-07",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-09-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "37653.79",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-4332.29",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "33321.50",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "6664.30",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "39985.80",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "scan_20260814_116655.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1050",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1050",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Braemar Retail Corporation",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2025-008",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-31319",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-05-23",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-06-22",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "37279.10",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-2128.33",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "35150.77",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "7030.15",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "42180.92",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "scan_20260814_117077.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1218",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1218",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Ashcombe Health Partners",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2025-013",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-61173",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-07-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-08-04",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "54665.97",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-8716.30",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "45949.67",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "9189.93",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "55139.60",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "scan_20260814_117817.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1224",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1224",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Ashcombe Health Partners",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2025-013",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-44237",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-07",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-08-07",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-09-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "68232.50",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-11369.33",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "56863.17",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "11372.63",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "68235.80",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "scan_20260814_118619.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1326",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1326",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Ashcombe Health Partners",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2025-015",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-60432",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-06-07",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-07-07",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "39353.28",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-2206.45",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "37146.83",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "7429.37",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "44576.20",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "scan_20260814_119005.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1332",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1332",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Ashcombe Health Partners",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2025-015",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-17492",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-07-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-08-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "65920.48",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-4911.48",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "61009.00",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "12201.80",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "73210.80",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "scan_20260814_119479.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1506",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1506",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Thornbury Retail Partners",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2025-019",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-48752",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-07",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-08-08",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-09-07",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "17865.34",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-1168.51",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "16696.83",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "3339.37",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "20036.20",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "scan_20260814_119811.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1512",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1512",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Quarrymoor Transit Partners",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2025-020",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-41385",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-05-22",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-06-21",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "364020.50",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-68060.71",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "295959.79",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "59191.96",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "355151.75",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "scan_20260814_121161.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1710",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1710",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Stonebridge Energy Group",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2025-025",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-67433",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-07-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-08-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "44554.05",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-7397.72",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "37156.33",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "7431.27",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "44587.60",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "scan_20260814_121516.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1716",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1716",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Stonebridge Energy Group",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2025-025",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-96356",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-07",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-08-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-09-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "38108.89",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-5800.56",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "32308.33",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "6461.67",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "38770.00",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "scan_20260814_121921.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1836",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1836",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Merrivale Maritime Corporation",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2026-029",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-36685",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-06-14",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-07-14",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "57932.19",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-4276.10",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "53656.09",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "10731.22",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "64387.31",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "INV-2026-1614 (1).pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1614",
+    "supersedes": null,
+    "duplicate_of": "INV-2026-1614",
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1614",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Fernhollow Financial Trust",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2025-023",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-77839",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-05-10",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-06-09",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "196942.78",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-34181.64",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "162761.14",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "32552.23",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "195313.37",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "INV-2026-1212.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1212",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1212",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Ashcombe Health Partners",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2025-013",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-86484",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-06-03",
+        "confidence": "low",
+        "evidence": "page 1, header block, right column, 'Issue date' row",
+        "reason": "printed 03/06/2026, which is ambiguous between day-first and month-first; read day-first because the billing period printed on the same document is May 2026 and the SOW invoices monthly in arrears, and because the printed payment due date 03/07/2026 is exactly the stated Net 30 days later only on the day-first reading"
+      },
+      "due_date": {
+        "value": "2026-07-03",
+        "confidence": "low",
+        "evidence": "page 1, header block, right column, 'Payment due' row",
+        "reason": "printed 03/07/2026, ambiguous between day-first and month-first; read day-first to match the issue date on the same document and the printed Net 30 day terms"
+      },
+      "subtotal": {
+        "value": "49557.42",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-9594.67",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "39962.75",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "7992.55",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "47955.30",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "scan_20260814_119189.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1500",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1500",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Thornbury Retail Partners",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2025-019",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-96163",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-06",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-07-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-08-04",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "total_due": {
+        "value": null,
+        "confidence": "unreadable",
+        "reason": "the scan ends immediately after the third line item; the whole totals block, including the TOTAL DUE line, is below the scan margin and is not on the page. REM-2026-8461 in this same folder settles INV-2026-1500 at 34,906.40, but that figure belongs to the remittance and has deliberately not been carried across to this invoice"
+      }
+    }
+  },
+  {
+    "source_file": "scan_20260814_120638.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1596",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1596",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Fernhollow Financial Trust",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2026-022",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-82063",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-06-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-07-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "34439.75",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-1961.08",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "32478.67",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "6495.73",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "38974.40",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "low",
+        "evidence": "page 1, payment terms line beneath the totals block",
+        "reason": "a handwritten note below the payment block reads 'net 14 days not 30 -- agreed w/ MJ 12/8', contradicting the printed terms. The printed value is recorded; the annotation is unsigned and undated as to year and has not been applied"
+      }
+    }
+  },
+  {
+    "source_file": "INV-2026-1062.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1062",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1062",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Northfield Municipal Group",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2026-009",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-70589",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-05-29",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-06-28",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "22075.11",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-4557.89",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "17517.22",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "3503.44",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "21020.66",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "INV-2026-1068.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "invoice",
+    "document_id": "INV-2026-1068",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "invoice_number": {
+        "value": "INV-2026-1068",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Invoice number' row"
+      },
+      "client_name": {
+        "value": "Northfield Municipal Group",
+        "confidence": "high",
+        "evidence": "page 1, BILL TO block, top left"
+      },
+      "engagement_ref": {
+        "value": "SOW-2026-009",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Engagement' row"
+      },
+      "purchase_order": {
+        "value": "PO-71694",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Purchase order' row"
+      },
+      "billing_period": {
+        "value": "2026-07",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Billing period' row"
+      },
+      "issue_date": {
+        "value": "2026-07-26",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Issue date' row"
+      },
+      "due_date": {
+        "value": "2026-08-25",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment due' row"
+      },
+      "subtotal": {
+        "value": "45530.86",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Subtotal' line, bottom right"
+      },
+      "retainer_credit": {
+        "value": "-1737.82",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Less retainer applied on account' line, bottom right"
+      },
+      "net_amount": {
+        "value": "43793.04",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'Net' line, bottom right"
+      },
+      "tax_amount": {
+        "value": "8758.61",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'VAT at 20%' line, bottom right"
+      },
+      "total_due": {
+        "value": "52551.65",
+        "confidence": "high",
+        "evidence": "page 1, totals block, 'TOTAL DUE' line, bottom right"
+      },
+      "payment_terms": {
+        "value": "Net 30 days from date of issue",
+        "confidence": "high",
+        "evidence": "page 1, payment terms line beneath the totals block"
+      }
+    }
+  },
+  {
+    "source_file": "REM-2026-2193.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "remittance",
+    "document_id": "REM-2026-2193",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "remittance_ref": {
+        "value": "REM-2026-2193",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Advice number' row"
+      },
+      "client_name": {
+        "value": "Stonebridge Energy Group",
+        "confidence": "high",
+        "evidence": "page 1, PAYMENT RECEIVED FROM block, top left"
+      },
+      "payment_date": {
+        "value": "2026-08-14",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment date' row"
+      },
+      "invoices_settled": {
+        "value": [
+          "INV-2026-1704",
+          "INV-2026-1146",
+          "INV-2026-1710"
+        ],
+        "confidence": "high",
+        "evidence": "page 1, settled invoices table, INVOICE column"
+      },
+      "amount_paid": {
+        "value": "133842.60",
+        "confidence": "high",
+        "evidence": "page 1, TOTAL PAID line beneath the settled invoices table"
+      }
+    }
+  },
+  {
+    "source_file": "REM-2026-5011.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "remittance",
+    "document_id": "REM-2026-5011",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "remittance_ref": {
+        "value": "REM-2026-5011",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Advice number' row"
+      },
+      "client_name": {
+        "value": "Braemar Retail Corporation",
+        "confidence": "high",
+        "evidence": "page 1, PAYMENT RECEIVED FROM block, top left"
+      },
+      "payment_date": {
+        "value": "2026-07-05",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment date' row"
+      },
+      "invoices_settled": {
+        "value": [
+          "INV-2026-1050",
+          "INV-2026-1392",
+          "INV-2026-1032"
+        ],
+        "confidence": "high",
+        "evidence": "page 1, settled invoices table, INVOICE column"
+      },
+      "amount_paid": {
+        "value": "92825.52",
+        "confidence": "high",
+        "evidence": "page 1, TOTAL PAID line beneath the settled invoices table"
+      }
+    }
+  },
+  {
+    "source_file": "REM-2026-9099.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "remittance",
+    "document_id": "REM-2026-9099",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "remittance_ref": {
+        "value": "REM-2026-9099",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Advice number' row"
+      },
+      "client_name": {
+        "value": "Oakhaven Logistics Collective",
+        "confidence": "high",
+        "evidence": "page 1, PAYMENT RECEIVED FROM block, top left"
+      },
+      "payment_date": {
+        "value": "2026-08-14",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment date' row"
+      },
+      "invoices_settled": {
+        "value": [
+          "INV-2026-0876"
+        ],
+        "confidence": "high",
+        "evidence": "page 1, settled invoices table, INVOICE column"
+      },
+      "amount_paid": {
+        "value": "84118.32",
+        "confidence": "high",
+        "evidence": "page 1, TOTAL PAID line beneath the settled invoices table"
+      }
+    }
+  },
+  {
+    "source_file": "INV-2026-1392.pdf",
+    "pages": [
+      2,
+      2
+    ],
+    "document_type": "remittance",
+    "document_id": "REM-2026-7790",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "remittance_ref": {
+        "value": "REM-2026-7790",
+        "confidence": "high",
+        "evidence": "page 2, header block, right column, 'Advice number' row"
+      },
+      "client_name": {
+        "value": "Fernhollow Financial Trust",
+        "confidence": "high",
+        "evidence": "page 2, PAYMENT RECEIVED FROM block, top left"
+      },
+      "payment_date": {
+        "value": "2026-07-13",
+        "confidence": "high",
+        "evidence": "page 2, header block, right column, 'Payment date' row"
+      },
+      "invoices_settled": {
+        "value": [
+          "INV-2026-1614",
+          "INV-2026-1596"
+        ],
+        "confidence": "high",
+        "evidence": "page 2, settled invoices table, INVOICE column"
+      },
+      "amount_paid": {
+        "value": "234287.77",
+        "confidence": "high",
+        "evidence": "page 2, TOTAL PAID line beneath the settled invoices table"
+      }
+    }
+  },
+  {
+    "source_file": "scan_20260814_122331.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "remittance",
+    "document_id": "REM-2026-4185",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "remittance_ref": {
+        "value": "REM-2026-4185",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Advice number' row"
+      },
+      "client_name": {
+        "value": "Northfield Municipal Group",
+        "confidence": "high",
+        "evidence": "page 1, PAYMENT RECEIVED FROM block, top left"
+      },
+      "payment_date": {
+        "value": "2026-08-29",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment date' row"
+      },
+      "invoices_settled": {
+        "value": [
+          "INV-2026-1062",
+          "INV-2026-1068"
+        ],
+        "confidence": "high",
+        "evidence": "page 1, settled invoices table, INVOICE column"
+      },
+      "amount_paid": {
+        "value": "73572.31",
+        "confidence": "high",
+        "evidence": "page 1, TOTAL PAID line beneath the settled invoices table"
+      }
+    }
+  },
+  {
+    "source_file": "scan_20260814_123094.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "remittance",
+    "document_id": "REM-2026-7291",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "remittance_ref": {
+        "value": "REM-2026-7291",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Advice number' row"
+      },
+      "client_name": {
+        "value": "Quarrymoor Transit Partners",
+        "confidence": "high",
+        "evidence": "page 1, PAYMENT RECEIVED FROM block, top left"
+      },
+      "payment_date": {
+        "value": "2026-07-16",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment date' row"
+      },
+      "invoices_settled": {
+        "value": [
+          "INV-2026-1512"
+        ],
+        "confidence": "high",
+        "evidence": "page 1, settled invoices table, INVOICE column"
+      },
+      "amount_paid": {
+        "value": "355151.75",
+        "confidence": "high",
+        "evidence": "page 1, TOTAL PAID line beneath the settled invoices table"
+      }
+    }
+  },
+  {
+    "source_file": "scan_20260814_123410.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "remittance",
+    "document_id": "REM-2026-8461",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "remittance_ref": {
+        "value": "REM-2026-8461",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Advice number' row"
+      },
+      "client_name": {
+        "value": "Thornbury Retail Partners",
+        "confidence": "high",
+        "evidence": "page 1, PAYMENT RECEIVED FROM block, top left"
+      },
+      "payment_date": {
+        "value": "2026-08-29",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment date' row"
+      },
+      "invoices_settled": {
+        "value": [
+          "INV-2026-1494",
+          "INV-2026-1500",
+          "INV-2026-1506"
+        ],
+        "confidence": "high",
+        "evidence": "page 1, settled invoices table, INVOICE column"
+      },
+      "amount_paid": {
+        "value": "68931.80",
+        "confidence": "high",
+        "evidence": "page 1, TOTAL PAID line beneath the settled invoices table"
+      }
+    }
+  },
+  {
+    "source_file": "scan_20260814_123712.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "remittance",
+    "document_id": "REM-2026-8784",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "remittance_ref": {
+        "value": "REM-2026-8784",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Advice number' row"
+      },
+      "client_name": {
+        "value": "Ashcombe Health Partners",
+        "confidence": "high",
+        "evidence": "page 1, PAYMENT RECEIVED FROM block, top left"
+      },
+      "payment_date": {
+        "value": "2026-07-15",
+        "confidence": "high",
+        "evidence": "page 1, header block, right column, 'Payment date' row"
+      },
+      "invoices_settled": {
+        "value": [
+          "INV-2026-0906",
+          "INV-2026-1212",
+          "INV-2026-1326"
+        ],
+        "confidence": "high",
+        "evidence": "page 1, settled invoices table, INVOICE column"
+      },
+      "amount_paid": {
+        "value": "111784.30",
+        "confidence": "high",
+        "evidence": "page 1, TOTAL PAID line beneath the settled invoices table"
+      }
+    }
+  },
+  {
+    "source_file": "Statement of account - Ashcombe Health Partners - Aug 2026.xlsx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "statement",
+    "document_id": "STM-2026-101",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "statement_ref": {
+        "value": "STM-2026-101",
+        "confidence": "high",
+        "evidence": "Statement sheet, cell B6"
+      },
+      "client_name": {
+        "value": "Ashcombe Health Partners",
+        "confidence": "high",
+        "evidence": "Statement sheet, cell B7"
+      },
+      "statement_date": {
+        "value": "2026-08-31",
+        "confidence": "high",
+        "evidence": "Statement sheet, cell B9"
+      },
+      "billing_period": {
+        "value": "2026-08",
+        "confidence": "high",
+        "evidence": "Statement sheet, cell B10"
+      },
+      "total_outstanding": {
+        "value": null,
+        "confidence": "unreadable",
+        "reason": "the TOTAL OUTSTANDING label is present but cell E17 holds the uncalculated formula =SUM(E13:E15) with no stored result, so the workbook states no balance. It could be recomputed from the amounts in rows 13 to 15, but that figure would be mine and not the statement's, so it is not recorded here"
+      },
+      "invoice_count": {
+        "value": null,
+        "confidence": "unreadable",
+        "reason": "the INVOICES OUTSTANDING label is present but cell E18 holds the uncalculated formula =COUNT(E13:E15) with no stored result, so the workbook states no count"
+      }
+    }
+  },
+  {
+    "source_file": "Statement of account - Fernhollow Financial Trust - Aug 2026.xlsx",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "statement",
+    "document_id": "STM-2026-102",
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {
+      "statement_ref": {
+        "value": "STM-2026-102",
+        "confidence": "high",
+        "evidence": "Statement sheet, cell B6"
+      },
+      "client_name": {
+        "value": "Fernhollow Financial Trust",
+        "confidence": "high",
+        "evidence": "Statement sheet, cell B7"
+      },
+      "statement_date": {
+        "value": "2026-08-31",
+        "confidence": "high",
+        "evidence": "Statement sheet, cell B9"
+      },
+      "billing_period": {
+        "value": "2026-08",
+        "confidence": "high",
+        "evidence": "Statement sheet, cell B10"
+      },
+      "total_outstanding": {
+        "value": null,
+        "confidence": "unreadable",
+        "reason": "the TOTAL OUTSTANDING label is present but cell E16 holds the uncalculated formula =SUM(E13:E14) with no stored result, so the workbook states no balance. It could be recomputed from the amounts in rows 13 to 14, but that figure would be mine and not the statement's, so it is not recorded here"
+      },
+      "invoice_count": {
+        "value": null,
+        "confidence": "unreadable",
+        "reason": "the INVOICES OUTSTANDING label is present but cell E17 holds the uncalculated formula =COUNT(E13:E14) with no stored result, so the workbook states no count"
+      }
+    }
+  },
+  {
+    "source_file": "receipt_20260804_lunch.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "out_of_scope",
+    "document_id": null,
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {}
+  },
+  {
+    "source_file": "scan_20260814_113255.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "out_of_scope",
+    "document_id": null,
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {}
+  },
+  {
+    "source_file": "scan_20260814_124109.pdf",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "out_of_scope",
+    "document_id": null,
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {}
+  },
+  {
+    "source_file": "FW_ Your Meridian Print account.eml",
+    "pages": [
+      1,
+      1
+    ],
+    "document_type": "out_of_scope",
+    "document_id": null,
+    "supersedes": null,
+    "duplicate_of": null,
+    "fields": {}
+  }
+]

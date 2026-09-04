@@ -1,0 +1,204 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/lstod/DocMess/schema/extraction.schema.json",
+  "title": "DocMess extraction record",
+  "description": "One extracted document. The unit is the document and not the file: a file may hold two documents, and a document may appear in two files. Every rule the pipeline is judged on that can be expressed as a shape is expressed here rather than in prose, because a rule stated in a prompt is a rule the model may decline to follow and nothing will notice.",
+
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["source_file", "pages", "document_type", "document_id", "supersedes", "duplicate_of", "fields"],
+
+  "properties": {
+    "source_file": {
+      "description": "Path of the file this document was read out of, relative to the inbox. Not an identifier: two records may share it (one file, two documents) and one document may be reachable through two of them (the same invoice filed twice).",
+      "type": "string",
+      "minLength": 1
+    },
+
+    "pages": {
+      "description": "The page range this document occupies within source_file, inclusive and 1-based. A single-page document is [n, n].",
+      "type": "array",
+      "items": { "type": "integer", "minimum": 1 },
+      "minItems": 2,
+      "maxItems": 2,
+      "pagesAscending": true
+    },
+
+    "document_type": {
+      "description": "Closed, so that a document belonging to none of the first five has exactly one place to go and no other. out_of_scope is a correct answer, not a failure to classify.",
+      "enum": ["sow", "sow_amendment", "invoice", "remittance", "statement", "out_of_scope"]
+    },
+
+    "document_id": {
+      "description": "The document's natural key, read off the page: the invoice number, the SOW reference, the amendment reference, the remittance reference, the statement reference. This is what deduplication and reconciliation join on. Never the filename, and never anything containing a client name — BizData composes client names from a shared pool and near-twins differing by one word are near-certain, so a join on the name matches the wrong client on most seeds. Null only for out_of_scope, which has no identity worth carrying.",
+      "type": ["string", "null"],
+      "minLength": 1
+    },
+
+    "supersedes": {
+      "description": "The document_id of the document this one replaces, or null. Set by an amendment against the SOW it amends. The stale figure must not reach the asset.",
+      "type": ["string", "null"],
+      "minLength": 1
+    },
+
+    "duplicate_of": {
+      "description": "The document_id of the document this one is a second copy of, or null. Set on the later of two files carrying the same document, so the merge can drop it without double-counting the total.",
+      "type": ["string", "null"],
+      "minLength": 1
+    },
+
+    "fields": {
+      "description": "What the document asserts. A field the document does not assert is absent from this object entirely — there is no fourth confidence state for missing, and absence is measured as coverage rather than rejected here.",
+      "type": "object",
+      "propertyNames": { "$ref": "#/$defs/field_name" },
+      "additionalProperties": { "$ref": "#/$defs/field" },
+
+      "properties": {
+        "invoices_settled": {
+          "$comment": "A remittance settles a list of invoices, and a list of one is still a list. Named here rather than left to the generic field, because this is the only field in the vocabulary whose value is plural, and it is the one that drifted.",
+          "allOf": [
+            { "$ref": "#/$defs/field" },
+            { "properties": { "value": { "type": ["array", "null"] } } }
+          ]
+        }
+      }
+    }
+  },
+
+  "allOf": [
+    {
+      "$comment": "Case 10. A lunch receipt is not a badly-filled invoice, and the way to stop it being force-fitted to the schema is to leave it nowhere to be force-fitted to.",
+      "if": {
+        "properties": { "document_type": { "const": "out_of_scope" } },
+        "required": ["document_type"]
+      },
+      "then": {
+        "properties": {
+          "document_id": { "type": "null" },
+          "supersedes": { "type": "null" },
+          "duplicate_of": { "type": "null" },
+          "fields": { "maxProperties": 0 }
+        }
+      },
+      "else": {
+        "properties": { "document_id": { "type": "string" } }
+      }
+    },
+    {
+      "$comment": "Only an amendment supersedes anything. A superseding invoice is a classification error wearing a plausible shape.",
+      "if": {
+        "not": {
+          "properties": { "document_type": { "const": "sow_amendment" } },
+          "required": ["document_type"]
+        }
+      },
+      "then": {
+        "properties": { "supersedes": { "type": "null" } }
+      }
+    }
+  ],
+
+  "$defs": {
+    "field_name": {
+      "description": "Closed, so that check_corpus.py's assertion that every declared field name is valid against the schema is an assertion about something. A new field type is a change to this list and to the Skill that reads it, in the same commit.",
+      "enum": [
+        "amendment_ref",
+        "amount_paid",
+        "billing_period",
+        "ceiling_amount",
+        "ceiling_hours",
+        "client_name",
+        "due_date",
+        "effective_date",
+        "end_date",
+        "engagement_name",
+        "engagement_ref",
+        "fee_type",
+        "invoice_count",
+        "invoice_number",
+        "invoices_settled",
+        "issue_date",
+        "net_amount",
+        "payment_date",
+        "payment_terms",
+        "purchase_order",
+        "remittance_ref",
+        "retainer_credit",
+        "revised_ceiling_amount",
+        "revised_ceiling_hours",
+        "revised_end_date",
+        "sow_ref",
+        "start_date",
+        "statement_date",
+        "statement_ref",
+        "subtotal",
+        "tax_amount",
+        "total_due",
+        "total_outstanding"
+      ]
+    },
+
+    "field": {
+      "description": "One extracted field. The confidence contract lives in the three branches below, and it is the reason this schema exists rather than a prose note: 'guess quietly' is not a shape the pipeline can emit, because there is no combination of value and confidence that expresses it.\n\nconfidence is three named states and never a number. A float invites 0.82, which reads as precision and is a vibe; three states force a decision that can be checked against the manifest.\n\nThe three shapes are mutually exclusive by construction, so confidence is recoverable from the shape alone. That redundancy is deliberate — a record whose stated confidence disagrees with its own shape is rejected rather than interpreted.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["confidence"],
+      "properties": {
+        "value": {
+          "description": "What the document says. Money as a decimal string rather than a float, because 0.1 + 0.2 is not 0.3 and a cent lost here is a miss scored against the model at step 8. Typed, because it was not: with no constraint here one run emitted a list of invoice references as [\"INV-1\", \"INV-2\"] and another emitted \"INV-1, INV-2\", both validated, and the reconciler scored the second as eight misread fields for what was a formatting difference with identical content. A shape the scorer will mark wrong is a shape the validator should refuse.",
+          "type": ["string", "number", "array", "null"],
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "confidence": { "enum": ["high", "low", "unreadable"] },
+        "evidence": {
+          "description": "Where on the page this was read. The QA sheet cites it and the whole point of the QA sheet is that a human can go and look, so 'the document' is not evidence and 'page 2, totals block, bottom right' is.",
+          "type": "string",
+          "minLength": 1
+        },
+        "reason": {
+          "description": "On unreadable, why it could not be read. On low, the inference the reading depends on.",
+          "type": "string",
+          "minLength": 1
+        }
+      },
+
+      "allOf": [
+        {
+          "$comment": "high — read directly, and legible. Correct for case 2, the degraded-but-readable control. No caveat, so no reason: a high carrying an explanation is a low that did not admit it.",
+          "if": {
+            "properties": { "confidence": { "const": "high" } },
+            "required": ["confidence"]
+          },
+          "then": {
+            "required": ["value", "evidence"],
+            "properties": { "value": { "not": { "type": "null" } } },
+            "not": { "required": ["reason"] }
+          }
+        },
+        {
+          "$comment": "low — read, but the reading depends on an inference: a date resolved from the invoice period, a client name whose discriminating token is one word on a degraded scan. The value is present and the caveat travels with it, which is what reason is doing here. A low with no stated inference is indistinguishable from a high and defeats the point of having three states.",
+          "if": {
+            "properties": { "confidence": { "const": "low" } },
+            "required": ["confidence"]
+          },
+          "then": {
+            "required": ["value", "evidence", "reason"],
+            "properties": { "value": { "not": { "type": "null" } } }
+          }
+        },
+        {
+          "$comment": "unreadable — case 7, the total cut off by the scanner margin. value is null and reason is mandatory. No evidence, because evidence is where the figure was read and it was not read.",
+          "if": {
+            "properties": { "confidence": { "const": "unreadable" } },
+            "required": ["confidence"]
+          },
+          "then": {
+            "required": ["value", "reason"],
+            "properties": { "value": { "type": "null" } },
+            "not": { "required": ["evidence"] }
+          }
+        }
+      ]
+    }
+  }
+}

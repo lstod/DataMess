@@ -1,0 +1,37 @@
+# Pinned exactly, for the same reason BizData pins: the corpus is a rendering of BizData's
+# generator and the manifest has to be byte-identical between runs. Python 3.12 is the pin
+# the generator's reproducibility rests on; see .python-version.
+#
+# Nothing here shells out to a system binary. That is a constraint rather than a coincidence
+# — a public repo that needs poppler or LibreOffice installed is an install failure waiting
+# for somebody else's machine, and it is why pdf2image is deliberately absent.
+
+# The invoice and remittance renderer, step 2. Also the spike's, at step 0.
+reportlab==5.0.1
+
+# Rasterising a PDF to pixels, step 3, and reading a text layer back out in every check that
+# asserts one is absent. Wheels on every platform, no poppler.
+pypdfium2==5.13.0
+
+# The degradation pass, step 3, and the multi-page image-only PDF writer that closes it.
+# Pillow writes PDFs directly, which is why there is no second PDF library and no img2pdf.
+pillow==12.3.0
+
+# SOWs and amendments, step 2. Word is what a statement of work actually arrives as.
+python-docx==1.2.0
+
+# The statement documents at step 2, and the deliverable at step 6. The pin matches BizData's
+# so nothing works here that fails there. build_extraction_workbook.py runs in Cowork's
+# sandbox rather than this virtualenv and may import openpyxl and the standard library only.
+openpyxl==3.1.5
+
+# The confidence contract, enforced rather than hoped for. skills/extract-to-schema bundles
+# validate.py, which runs in the sandbox and imports jsonschema and the standard library only.
+jsonschema==4.26.0
+
+# scorecard.png, step 8. Repo-side only; no Skill imports it.
+matplotlib==3.11.1
+
+# Step 7's load. The most cuttable dependency in the file — cutting step 7 costs this line
+# and a --csv flag.
+psycopg[binary]==3.3.4

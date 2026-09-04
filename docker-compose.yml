@@ -1,0 +1,55 @@
+# DocMess's own Postgres. Port 5434 on the host, its own named volume.
+#
+# Why not BizData's container
+# ---------------------------
+# BizData runs Postgres on 5433 and it would be one line to point at it. Two reasons not to.
+#
+# There is nothing to join. Ground truth lives in corpus/manifest.json, not in a table, so the
+# extraction has no foreign key into BizData's portfolio -- and once there is no join, a shared
+# database buys nothing but shared risk. `docker compose down -v` in a sibling repo would take
+# this project's data with it, and that is a bad afternoon caused entirely by a convenience.
+#
+# It also mirrors the real shape. In a client environment the extraction lands next to a system
+# of record owned by someone else, on a connection you were granted rather than one you own.
+# Two containers is the honest rehearsal of that; one container is a fiction that only works
+# because both repos happen to be on the same laptop.
+#
+# 16.10 is pinned. A minor-version bump has changed a planner default before now, and the
+# reconciliation queries below are the thing this step exists to trust.
+
+name: docmess
+
+services:
+  postgres:
+    image: postgres:16.10
+    container_name: docmess-postgres
+    environment:
+      POSTGRES_DB: docmess
+      POSTGRES_USER: docmess
+      POSTGRES_PASSWORD: docmess
+      # Deterministic collation. Sorting is not load-bearing here, but a query that returns
+      # rows in a different order on someone else's machine wastes an hour proving it is fine.
+      POSTGRES_INITDB_ARGS: "--locale=C --encoding=UTF8"
+    ports:
+      # 5434, not 5432, and not BizData's 5433. A local Postgres on the default port is common
+      # enough that binding it is how you end up loading a demo corpus into something real.
+      - "5434:5432"
+    volumes:
+      - docmess-pgdata:/var/lib/postgresql/data
+      # Applied by the entrypoint on an empty volume, so `up` gives a schema without a second
+      # command. scripts/load.py applies it again anyway -- see the note there about why it has
+      # to be idempotent rather than assuming this ran.
+      - ./db/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    healthcheck:
+      # `pg_isready` alone returns true while the init scripts are still running, which is long
+      # enough for a load to race it. Selecting from a table the schema creates does not.
+      test: ["CMD-SHELL", "psql -U docmess -d docmess -c 'select 1 from runs limit 1' || exit 1"]
+      interval: 2s
+      timeout: 5s
+      retries: 30
+      start_period: 5s
+    restart: unless-stopped
+
+volumes:
+  docmess-pgdata:
+    name: docmess-pgdata

@@ -1,0 +1,32 @@
+{
+  "seed": 20260903,
+  "dpi": 200,
+  "inbox": "/Users/mikaylastewart/Brain/Liam/DocMess/spike/inbox",
+  "warning": "Never put this file, or anything above inbox/, in front of Cowork.",
+  "documents": [
+    {
+      "filename": "scan_20260814_113255.pdf",
+      "kind": "image-only",
+      "probes": {
+        "verification_code": "VC-BRZR-1142-OWI5",
+        "total_due": "64,967.56",
+        "invoice_number": "INV-2026-3822",
+        "purchase_order": "PO-97125",
+        "client": "Stonebridge Municipal Holdings",
+        "issue_date": "2026-08-09"
+      }
+    },
+    {
+      "filename": "INV-2026-7693.pdf",
+      "kind": "text-layer",
+      "probes": {
+        "verification_code": "VC-HNQI-6409-JADV",
+        "total_due": "64,632.35",
+        "invoice_number": "INV-2026-7693",
+        "purchase_order": "PO-84340",
+        "client": "Dunmarch Maritime Group",
+        "issue_date": "2026-08-17"
+      }
+    }
+  ]
+}

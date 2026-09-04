@@ -1,0 +1,4382 @@
+{
+  "seed": 42,
+  "period": "2026-08",
+  "schema": "schema/extraction.schema.json",
+  "generated_by": "scripts/corpus.py",
+  "note": "Declared truth. Written by the pass that wrote the documents, never by reading them back. Values are the figures put on the page, from the same variable in the same function -- money as decimal strings and dates as ISO, so that case 6's 1.234,56 and case 9's 03/09/2026 live on the page and never in here.",
+  "counts": {
+    "documents": 74,
+    "files": 74,
+    "document_instances": 75,
+    "scans": 22,
+    "by_type": {
+      "sow": 18,
+      "sow_amendment": 6,
+      "invoice": 36,
+      "remittance": 8,
+      "statement": 2,
+      "out_of_scope": 4
+    }
+  },
+  "mess_cases": {
+    "1": {
+      "rule": "empty text extraction is not an empty document",
+      "files": [
+        "scan_20260814_114082.pdf",
+        "scan_20260814_114765.pdf",
+        "scan_20260814_115456.pdf",
+        "scan_20260814_115806.pdf",
+        "scan_20260814_116655.pdf",
+        "scan_20260814_117077.pdf",
+        "scan_20260814_117817.pdf",
+        "scan_20260814_118619.pdf",
+        "scan_20260814_119005.pdf",
+        "scan_20260814_119189.pdf",
+        "scan_20260814_119479.pdf",
+        "scan_20260814_119811.pdf",
+        "scan_20260814_120638.pdf",
+        "scan_20260814_121161.pdf",
+        "scan_20260814_121516.pdf",
+        "scan_20260814_121921.pdf",
+        "scan_20260814_113255.pdf",
+        "scan_20260814_124109.pdf",
+        "scan_20260814_122331.pdf",
+        "scan_20260814_123094.pdf",
+        "scan_20260814_123410.pdf",
+        "scan_20260814_123712.pdf"
+      ]
+    },
+    "2": {
+      "rule": "degraded is not unreadable; high is the correct answer",
+      "file": "scan_20260814_115456.pdf",
+      "expected_confidence": "high"
+    },
+    "3": {
+      "rule": "a file is not a document",
+      "file": "INV-2026-1392.pdf",
+      "documents": [
+        "INV-2026-1392",
+        "REM-2026-7790"
+      ]
+    },
+    "4": {
+      "rule": "set supersedes; the stale ceiling must not reach the asset",
+      "amendments": [
+        "SOW-2025-011-A3",
+        "SOW-2025-015-A4",
+        "SOW-2025-019-A5",
+        "SOW-2025-023-A6",
+        "SOW-2026-002-A1",
+        "SOW-2026-007-A2"
+      ]
+    },
+    "5": {
+      "rule": "dedupe on the natural key, never the filename",
+      "files": [
+        "INV-2026-1614.pdf",
+        "INV-2026-1614 (1).pdf"
+      ],
+      "document_id": "INV-2026-1614"
+    },
+    "6": {
+      "rule": "normalise the locale and round-trip to the cent",
+      "documents": [
+        "INV-2026-1062",
+        "INV-2026-1068"
+      ]
+    },
+    "7": {
+      "rule": "unreadable, with a reason; never a guess",
+      "file": "scan_20260814_119189.pdf",
+      "document_id": "INV-2026-1500",
+      "field": "total_due"
+    },
+    "8": {
+      "rule": "record both, flag the conflict, escalate",
+      "file": "scan_20260814_120638.pdf",
+      "document_id": "INV-2026-1596",
+      "field": "payment_terms",
+      "annotation": "net 14 days not 30 -- agreed w/ MJ 12/8"
+    },
+    "9": {
+      "rule": "resolve from the billing period if it can be resolved; flag it if it cannot",
+      "document_id": "INV-2026-1212",
+      "field": "issue_date"
+    },
+    "10": {
+      "rule": "out_of_scope; do not force-fit it to the schema",
+      "files": [
+        "FW_ Your Meridian Print account.eml",
+        "receipt_20260804_lunch.pdf",
+        "scan_20260814_113255.pdf",
+        "scan_20260814_124109.pdf"
+      ]
+    }
+  },
+  "documents": [
+    {
+      "document_id": "INV-2026-0876",
+      "document_type": "invoice",
+      "source_file": "INV-2026-0876.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-0876",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Oakhaven Logistics Collective",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2026-002",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-80678",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-06",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-07-09",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-08-08",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "79912.83",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-9814.23",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "70098.60",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "14019.72",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "84118.32",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      }
+    },
+    {
+      "document_id": "INV-2026-0906",
+      "document_type": "invoice",
+      "source_file": "INV-2026-0906.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-0906",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Ashcombe Health Partners",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2026-003",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-57052",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-05",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-06-04",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-07-04",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "17337.79",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-1293.79",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "16044.00",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "3208.80",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "19252.80",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      }
+    },
+    {
+      "document_id": "INV-2026-0912",
+      "document_type": "invoice",
+      "source_file": "scan_20260814_114082.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-0912",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Ashcombe Health Partners",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2026-003",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-63883",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-06",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-07-07",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-08-06",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "28951.42",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-4214.42",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "24737.00",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "4947.40",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "29684.40",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      },
+      "mess_cases": [
+        1
+      ],
+      "scanned": true,
+      "degradation": {
+        "case": 1,
+        "crop_below_pt": null,
+        "annotate_at_pt": null,
+        "annotation": null
+      }
+    },
+    {
+      "document_id": "INV-2026-0918",
+      "document_type": "invoice",
+      "source_file": "scan_20260814_114765.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-0918",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Ashcombe Health Partners",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2026-003",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-93507",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-07",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-08-08",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-09-07",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "14360.33",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-717.83",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "13642.50",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "2728.50",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "16371.00",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      },
+      "mess_cases": [
+        1
+      ],
+      "scanned": true,
+      "degradation": {
+        "case": 1,
+        "crop_below_pt": null,
+        "annotate_at_pt": null,
+        "annotation": null
+      }
+    },
+    {
+      "document_id": "INV-2026-0966",
+      "document_type": "invoice",
+      "source_file": "INV-2026-0966.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-0966",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Pentland Media Group",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2026-005",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-58393",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-07",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-07-25",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-08-24",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "33546.78",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-5830.44",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "27716.34",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "5543.27",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "33259.61",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      }
+    },
+    {
+      "document_id": "INV-2026-1032",
+      "document_type": "invoice",
+      "source_file": "scan_20260814_115456.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1032",
+          "where": "page 1, header block, right",
+          "expected_confidence": "high",
+          "note": "case 2, the control: degraded at full strength but set in large type with a generous margin, so it is legible and flagging it is the wrong answer"
+        },
+        "client_name": {
+          "value": "Braemar Retail Corporation",
+          "where": "page 1, bill-to block, upper left",
+          "expected_confidence": "high",
+          "note": "case 2, the control: degraded at full strength but set in large type with a generous margin, so it is legible and flagging it is the wrong answer"
+        },
+        "engagement_ref": {
+          "value": "SOW-2026-007",
+          "where": "page 1, header block, right",
+          "expected_confidence": "high",
+          "note": "case 2, the control: degraded at full strength but set in large type with a generous margin, so it is legible and flagging it is the wrong answer"
+        },
+        "purchase_order": {
+          "value": "PO-19116",
+          "where": "page 1, header block, right",
+          "expected_confidence": "high",
+          "note": "case 2, the control: degraded at full strength but set in large type with a generous margin, so it is legible and flagging it is the wrong answer"
+        },
+        "billing_period": {
+          "value": "2026-05",
+          "where": "page 1, header block, right",
+          "expected_confidence": "high",
+          "note": "case 2, the control: degraded at full strength but set in large type with a generous margin, so it is legible and flagging it is the wrong answer"
+        },
+        "issue_date": {
+          "value": "2026-06-07",
+          "where": "page 1, header block, right",
+          "expected_confidence": "high",
+          "note": "case 2, the control: degraded at full strength but set in large type with a generous margin, so it is legible and flagging it is the wrong answer"
+        },
+        "due_date": {
+          "value": "2026-07-07",
+          "where": "page 1, header block, right",
+          "expected_confidence": "high",
+          "note": "case 2, the control: degraded at full strength but set in large type with a generous margin, so it is legible and flagging it is the wrong answer"
+        },
+        "subtotal": {
+          "value": "29279.55",
+          "where": "page 1, totals block, bottom right",
+          "expected_confidence": "high",
+          "note": "case 2, the control: degraded at full strength but set in large type with a generous margin, so it is legible and flagging it is the wrong answer"
+        },
+        "retainer_credit": {
+          "value": "-4053.55",
+          "where": "page 1, totals block, bottom right",
+          "expected_confidence": "high",
+          "note": "case 2, the control: degraded at full strength but set in large type with a generous margin, so it is legible and flagging it is the wrong answer"
+        },
+        "net_amount": {
+          "value": "25226.00",
+          "where": "page 1, totals block, bottom right",
+          "expected_confidence": "high",
+          "note": "case 2, the control: degraded at full strength but set in large type with a generous margin, so it is legible and flagging it is the wrong answer"
+        },
+        "tax_amount": {
+          "value": "5045.20",
+          "where": "page 1, totals block, bottom right",
+          "expected_confidence": "high",
+          "note": "case 2, the control: degraded at full strength but set in large type with a generous margin, so it is legible and flagging it is the wrong answer"
+        },
+        "total_due": {
+          "value": "30271.20",
+          "where": "page 1, totals block, bottom right",
+          "expected_confidence": "high",
+          "note": "case 2, the control: degraded at full strength but set in large type with a generous margin, so it is legible and flagging it is the wrong answer"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block",
+          "expected_confidence": "high",
+          "note": "case 2, the control: degraded at full strength but set in large type with a generous margin, so it is legible and flagging it is the wrong answer"
+        }
+      },
+      "mess_cases": [
+        2
+      ],
+      "scanned": true,
+      "degradation": {
+        "case": 2,
+        "crop_below_pt": null,
+        "annotate_at_pt": null,
+        "annotation": null
+      }
+    },
+    {
+      "document_id": "INV-2026-1038",
+      "document_type": "invoice",
+      "source_file": "INV-2026-1038.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1038",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Braemar Retail Corporation",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2026-007",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-65296",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-06",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-07-03",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-08-02",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "32064.86",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-4422.78",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "27642.08",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "5528.42",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "33170.50",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      }
+    },
+    {
+      "document_id": "INV-2026-1044",
+      "document_type": "invoice",
+      "source_file": "scan_20260814_115806.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1044",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Braemar Retail Corporation",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2026-007",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-63264",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-07",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-08-07",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-09-06",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "37653.79",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-4332.29",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "33321.50",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "6664.30",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "39985.80",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      },
+      "mess_cases": [
+        1
+      ],
+      "scanned": true,
+      "degradation": {
+        "case": 1,
+        "crop_below_pt": null,
+        "annotate_at_pt": null,
+        "annotation": null
+      }
+    },
+    {
+      "document_id": "INV-2026-1050",
+      "document_type": "invoice",
+      "source_file": "scan_20260814_116655.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1050",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Braemar Retail Corporation",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2025-008",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-31319",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-05",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-05-23",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-06-22",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "37279.10",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-2128.33",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "35150.77",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "7030.15",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "42180.92",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      },
+      "mess_cases": [
+        1
+      ],
+      "scanned": true,
+      "degradation": {
+        "case": 1,
+        "crop_below_pt": null,
+        "annotate_at_pt": null,
+        "annotation": null
+      }
+    },
+    {
+      "document_id": "INV-2026-1062",
+      "document_type": "invoice",
+      "source_file": "INV-2026-1062.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1062",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Northfield Municipal Group",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2026-009",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-70589",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-05",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-05-29",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-06-28",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "22075.11",
+          "where": "page 1, totals block, bottom right",
+          "note": "rendered in 1.234,56 format and normalised"
+        },
+        "retainer_credit": {
+          "value": "-4557.89",
+          "where": "page 1, totals block, bottom right",
+          "note": "rendered in 1.234,56 format and normalised"
+        },
+        "net_amount": {
+          "value": "17517.22",
+          "where": "page 1, totals block, bottom right",
+          "note": "rendered in 1.234,56 format and normalised"
+        },
+        "tax_amount": {
+          "value": "3503.44",
+          "where": "page 1, totals block, bottom right",
+          "note": "rendered in 1.234,56 format and normalised"
+        },
+        "total_due": {
+          "value": "21020.66",
+          "where": "page 1, totals block, bottom right",
+          "note": "rendered in 1.234,56 format and normalised"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      },
+      "mess_cases": [
+        6
+      ]
+    },
+    {
+      "document_id": "INV-2026-1068",
+      "document_type": "invoice",
+      "source_file": "INV-2026-1068.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1068",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Northfield Municipal Group",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2026-009",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-71694",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-07",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-07-26",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-08-25",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "45530.86",
+          "where": "page 1, totals block, bottom right",
+          "note": "rendered in 1.234,56 format and normalised"
+        },
+        "retainer_credit": {
+          "value": "-1737.82",
+          "where": "page 1, totals block, bottom right",
+          "note": "rendered in 1.234,56 format and normalised"
+        },
+        "net_amount": {
+          "value": "43793.04",
+          "where": "page 1, totals block, bottom right",
+          "note": "rendered in 1.234,56 format and normalised"
+        },
+        "tax_amount": {
+          "value": "8758.61",
+          "where": "page 1, totals block, bottom right",
+          "note": "rendered in 1.234,56 format and normalised"
+        },
+        "total_due": {
+          "value": "52551.65",
+          "where": "page 1, totals block, bottom right",
+          "note": "rendered in 1.234,56 format and normalised"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      },
+      "mess_cases": [
+        6
+      ]
+    },
+    {
+      "document_id": "INV-2026-1146",
+      "document_type": "invoice",
+      "source_file": "INV-2026-1146.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1146",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Stonebridge Energy Group",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2026-012",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-37653",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-05",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-06-05",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-07-05",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "31696.19",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-1512.44",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "30183.75",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "6036.75",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "36220.50",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      }
+    },
+    {
+      "document_id": "INV-2026-1152",
+      "document_type": "invoice",
+      "source_file": "INV-2026-1152.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1152",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Stonebridge Energy Group",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2026-012",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-22224",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-06",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-07-04",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-08-03",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "36894.48",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-2097.81",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "34796.67",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "6959.33",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "41756.00",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      }
+    },
+    {
+      "document_id": "INV-2026-1158",
+      "document_type": "invoice",
+      "source_file": "INV-2026-1158.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1158",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Stonebridge Energy Group",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2026-012",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-46517",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-07",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-08-04",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-09-03",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "50819.00",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-5829.00",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "44990.00",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "8998.00",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "53988.00",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      }
+    },
+    {
+      "document_id": "INV-2026-1212",
+      "document_type": "invoice",
+      "source_file": "INV-2026-1212.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1212",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Ashcombe Health Partners",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2025-013",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-86484",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-05",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-06-03",
+          "where": "page 1, header block, right",
+          "expected_confidence": "low",
+          "note": "written day-first as DD/MM/YYYY with a day of 12 or less, so it is resolvable only from the billing period stated above it"
+        },
+        "due_date": {
+          "value": "2026-07-03",
+          "where": "page 1, header block, right",
+          "expected_confidence": "low",
+          "note": "day-first, the same ambiguity as the issue date"
+        },
+        "subtotal": {
+          "value": "49557.42",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-9594.67",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "39962.75",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "7992.55",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "47955.30",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      },
+      "mess_cases": [
+        9
+      ]
+    },
+    {
+      "document_id": "INV-2026-1218",
+      "document_type": "invoice",
+      "source_file": "scan_20260814_117077.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1218",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Ashcombe Health Partners",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2025-013",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-61173",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-06",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-07-05",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-08-04",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "54665.97",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-8716.30",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "45949.67",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "9189.93",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "55139.60",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      },
+      "mess_cases": [
+        1
+      ],
+      "scanned": true,
+      "degradation": {
+        "case": 1,
+        "crop_below_pt": null,
+        "annotate_at_pt": null,
+        "annotation": null
+      }
+    },
+    {
+      "document_id": "INV-2026-1224",
+      "document_type": "invoice",
+      "source_file": "scan_20260814_117817.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1224",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Ashcombe Health Partners",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2025-013",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-44237",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-07",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-08-07",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-09-06",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "68232.50",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-11369.33",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "56863.17",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "11372.63",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "68235.80",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      },
+      "mess_cases": [
+        1
+      ],
+      "scanned": true,
+      "degradation": {
+        "case": 1,
+        "crop_below_pt": null,
+        "annotate_at_pt": null,
+        "annotation": null
+      }
+    },
+    {
+      "document_id": "INV-2026-1326",
+      "document_type": "invoice",
+      "source_file": "scan_20260814_118619.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1326",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Ashcombe Health Partners",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2025-015",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-60432",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-05",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-06-07",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-07-07",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "39353.28",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-2206.45",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "37146.83",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "7429.37",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "44576.20",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      },
+      "mess_cases": [
+        1
+      ],
+      "scanned": true,
+      "degradation": {
+        "case": 1,
+        "crop_below_pt": null,
+        "annotate_at_pt": null,
+        "annotation": null
+      }
+    },
+    {
+      "document_id": "INV-2026-1332",
+      "document_type": "invoice",
+      "source_file": "scan_20260814_119005.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1332",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Ashcombe Health Partners",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2025-015",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-17492",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-06",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-07-06",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-08-05",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "65920.48",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-4911.48",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "61009.00",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "12201.80",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "73210.80",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      },
+      "mess_cases": [
+        1
+      ],
+      "scanned": true,
+      "degradation": {
+        "case": 1,
+        "crop_below_pt": null,
+        "annotate_at_pt": null,
+        "annotation": null
+      }
+    },
+    {
+      "document_id": "INV-2026-1338",
+      "document_type": "invoice",
+      "source_file": "INV-2026-1338.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1338",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Ashcombe Health Partners",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2025-015",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-77033",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-07",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-08-07",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-09-06",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "72146.82",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-4723.24",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "67423.58",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "13484.72",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "80908.30",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      }
+    },
+    {
+      "document_id": "INV-2026-1392",
+      "document_type": "invoice",
+      "source_file": "INV-2026-1392.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1392",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Braemar Retail Corporation",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2025-016",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-24621",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-05",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-06-06",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-07-06",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "20558.49",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-3580.66",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "16977.83",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "3395.57",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "20373.40",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      }
+    },
+    {
+      "document_id": "INV-2026-1398",
+      "document_type": "invoice",
+      "source_file": "INV-2026-1398.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1398",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Braemar Retail Corporation",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2025-016",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-98501",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-06",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-07-09",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-08-08",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "29907.72",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-1470.64",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "28437.08",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "5687.42",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "34124.50",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      }
+    },
+    {
+      "document_id": "INV-2026-1404",
+      "document_type": "invoice",
+      "source_file": "INV-2026-1404.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1404",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Braemar Retail Corporation",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2025-016",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-66531",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-07",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-08-06",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-09-05",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "32597.80",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-1567.05",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "31030.75",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "6206.15",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "37236.90",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      }
+    },
+    {
+      "document_id": "INV-2026-1458",
+      "document_type": "invoice",
+      "source_file": "INV-2026-1458.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1458",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Thornbury Retail Partners",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2025-018",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-16057",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-08",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-08-07",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-09-06",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "57571.95",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-5689.37",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "51882.58",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "10376.51",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "62259.09",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      }
+    },
+    {
+      "document_id": "INV-2026-1494",
+      "document_type": "invoice",
+      "source_file": "INV-2026-1494.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1494",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Thornbury Retail Partners",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2025-019",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-36071",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-05",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-06-04",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-07-04",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "14795.01",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-3137.34",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "11657.67",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "2331.53",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "13989.20",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      }
+    },
+    {
+      "document_id": "INV-2026-1500",
+      "document_type": "invoice",
+      "source_file": "scan_20260814_119189.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1500",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Thornbury Retail Partners",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2025-019",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-96163",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-06",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-07-05",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-08-04",
+          "where": "page 1, header block, right"
+        },
+        "total_due": {
+          "value": "34906.40",
+          "where": "page 1, totals block, bottom right",
+          "expected_confidence": "unreadable",
+          "note": "the totals block is below the scanner margin and is not on the page. The figure cannot be recovered by arithmetic either, because net and VAT went with it"
+        }
+      },
+      "mess_cases": [
+        7
+      ],
+      "scanned": true,
+      "degradation": {
+        "case": 7,
+        "crop_below_pt": 531.86,
+        "annotate_at_pt": null,
+        "annotation": null
+      }
+    },
+    {
+      "document_id": "INV-2026-1506",
+      "document_type": "invoice",
+      "source_file": "scan_20260814_119479.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1506",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Thornbury Retail Partners",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2025-019",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-48752",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-07",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-08-08",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-09-07",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "17865.34",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-1168.51",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "16696.83",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "3339.37",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "20036.20",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      },
+      "mess_cases": [
+        1
+      ],
+      "scanned": true,
+      "degradation": {
+        "case": 1,
+        "crop_below_pt": null,
+        "annotate_at_pt": null,
+        "annotation": null
+      }
+    },
+    {
+      "document_id": "INV-2026-1512",
+      "document_type": "invoice",
+      "source_file": "scan_20260814_119811.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1512",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Quarrymoor Transit Partners",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2025-020",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-41385",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-05",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-05-22",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-06-21",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "364020.50",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-68060.71",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "295959.79",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "59191.96",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "355151.75",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      },
+      "mess_cases": [
+        1
+      ],
+      "scanned": true,
+      "degradation": {
+        "case": 1,
+        "crop_below_pt": null,
+        "annotate_at_pt": null,
+        "annotation": null
+      }
+    },
+    {
+      "document_id": "INV-2026-1596",
+      "document_type": "invoice",
+      "source_file": "scan_20260814_120638.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1596",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Fernhollow Financial Trust",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2026-022",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-82063",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-05",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-06-05",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-07-05",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "34439.75",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-1961.08",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "32478.67",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "6495.73",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "38974.40",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block",
+          "expected_confidence": "low",
+          "note": "a handwritten annotation beside the printed terms reads 'net 14 days not 30 -- agreed w/ MJ 12/8' and contradicts them. Record the printed value, flag the conflict, and do not silently prefer either"
+        }
+      },
+      "mess_cases": [
+        8
+      ],
+      "scanned": true,
+      "degradation": {
+        "case": 8,
+        "crop_below_pt": null,
+        "annotate_at_pt": 361.86,
+        "annotation": "net 14 days not 30 -- agreed w/ MJ 12/8"
+      }
+    },
+    {
+      "document_id": "INV-2026-1602",
+      "document_type": "invoice",
+      "source_file": "INV-2026-1602.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1602",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Fernhollow Financial Trust",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2026-022",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-11220",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-06",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-07-05",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-08-04",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "38860.26",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-3850.43",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "35009.83",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "7001.97",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "42011.80",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      }
+    },
+    {
+      "document_id": "INV-2026-1608",
+      "document_type": "invoice",
+      "source_file": "INV-2026-1608.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1608",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Fernhollow Financial Trust",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2026-022",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-47606",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-07",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-08-06",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-09-05",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "46668.24",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-9351.99",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "37316.25",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "7463.25",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "44779.50",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      }
+    },
+    {
+      "document_id": "INV-2026-1614",
+      "document_type": "invoice",
+      "source_file": "INV-2026-1614.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1614",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Fernhollow Financial Trust",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2025-023",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-77839",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-05",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-05-10",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-06-09",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "196942.78",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-34181.64",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "162761.14",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "32552.23",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "195313.37",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      },
+      "also_filed_as": "INV-2026-1614 (1).pdf"
+    },
+    {
+      "document_id": "INV-2026-1704",
+      "document_type": "invoice",
+      "source_file": "INV-2026-1704.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1704",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Stonebridge Energy Group",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2025-025",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-92719",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-05",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-06-06",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-07-06",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "50409.48",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-6214.06",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "44195.42",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "8839.08",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "53034.50",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      }
+    },
+    {
+      "document_id": "INV-2026-1710",
+      "document_type": "invoice",
+      "source_file": "scan_20260814_121161.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1710",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Stonebridge Energy Group",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2025-025",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-67433",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-06",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-07-06",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-08-05",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "44554.05",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-7397.72",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "37156.33",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "7431.27",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "44587.60",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      },
+      "mess_cases": [
+        1
+      ],
+      "scanned": true,
+      "degradation": {
+        "case": 1,
+        "crop_below_pt": null,
+        "annotate_at_pt": null,
+        "annotation": null
+      }
+    },
+    {
+      "document_id": "INV-2026-1716",
+      "document_type": "invoice",
+      "source_file": "scan_20260814_121516.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1716",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Stonebridge Energy Group",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2025-025",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-96356",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-07",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-08-06",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-09-05",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "38108.89",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-5800.56",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "32308.33",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "6461.67",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "38770.00",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      },
+      "mess_cases": [
+        1
+      ],
+      "scanned": true,
+      "degradation": {
+        "case": 1,
+        "crop_below_pt": null,
+        "annotate_at_pt": null,
+        "annotation": null
+      }
+    },
+    {
+      "document_id": "INV-2026-1836",
+      "document_type": "invoice",
+      "source_file": "scan_20260814_121921.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "invoice_number": {
+          "value": "INV-2026-1836",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Merrivale Maritime Corporation",
+          "where": "page 1, bill-to block, upper left"
+        },
+        "engagement_ref": {
+          "value": "SOW-2026-029",
+          "where": "page 1, header block, right"
+        },
+        "purchase_order": {
+          "value": "PO-36685",
+          "where": "page 1, header block, right"
+        },
+        "billing_period": {
+          "value": "2026-06",
+          "where": "page 1, header block, right"
+        },
+        "issue_date": {
+          "value": "2026-06-14",
+          "where": "page 1, header block, right"
+        },
+        "due_date": {
+          "value": "2026-07-14",
+          "where": "page 1, header block, right"
+        },
+        "subtotal": {
+          "value": "57932.19",
+          "where": "page 1, totals block, bottom right"
+        },
+        "retainer_credit": {
+          "value": "-4276.10",
+          "where": "page 1, totals block, bottom right"
+        },
+        "net_amount": {
+          "value": "53656.09",
+          "where": "page 1, totals block, bottom right"
+        },
+        "tax_amount": {
+          "value": "10731.22",
+          "where": "page 1, totals block, bottom right"
+        },
+        "total_due": {
+          "value": "64387.31",
+          "where": "page 1, totals block, bottom right"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, below the totals block"
+        }
+      },
+      "mess_cases": [
+        1
+      ],
+      "scanned": true,
+      "degradation": {
+        "case": 1,
+        "crop_below_pt": null,
+        "annotate_at_pt": null,
+        "annotation": null
+      }
+    },
+    {
+      "document_id": null,
+      "document_type": "out_of_scope",
+      "source_file": "FW_ Your Meridian Print account.eml",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {},
+      "mess_cases": [
+        10
+      ]
+    },
+    {
+      "document_id": null,
+      "document_type": "out_of_scope",
+      "source_file": "receipt_20260804_lunch.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {},
+      "mess_cases": [
+        10
+      ]
+    },
+    {
+      "document_id": null,
+      "document_type": "out_of_scope",
+      "source_file": "scan_20260814_113255.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {},
+      "mess_cases": [
+        1,
+        10
+      ],
+      "scanned": true,
+      "degradation": {
+        "case": 1,
+        "crop_below_pt": null,
+        "annotate_at_pt": null,
+        "annotation": null
+      }
+    },
+    {
+      "document_id": null,
+      "document_type": "out_of_scope",
+      "source_file": "scan_20260814_124109.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {},
+      "mess_cases": [
+        1,
+        10
+      ],
+      "scanned": true,
+      "degradation": {
+        "case": 1,
+        "crop_below_pt": null,
+        "annotate_at_pt": null,
+        "annotation": null
+      }
+    },
+    {
+      "document_id": "REM-2026-2193",
+      "document_type": "remittance",
+      "source_file": "REM-2026-2193.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "remittance_ref": {
+          "value": "REM-2026-2193",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Stonebridge Energy Group",
+          "where": "page 1, payment-from block, upper left"
+        },
+        "payment_date": {
+          "value": "2026-08-14",
+          "where": "page 1, header block, right"
+        },
+        "amount_paid": {
+          "value": "133842.60",
+          "where": "page 1, total paid, bottom right"
+        },
+        "invoices_settled": {
+          "value": [
+            "INV-2026-1704",
+            "INV-2026-1146",
+            "INV-2026-1710"
+          ],
+          "where": "page 1, invoice table, left column"
+        }
+      }
+    },
+    {
+      "document_id": "REM-2026-4185",
+      "document_type": "remittance",
+      "source_file": "scan_20260814_122331.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "remittance_ref": {
+          "value": "REM-2026-4185",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Northfield Municipal Group",
+          "where": "page 1, payment-from block, upper left"
+        },
+        "payment_date": {
+          "value": "2026-08-29",
+          "where": "page 1, header block, right"
+        },
+        "amount_paid": {
+          "value": "73572.31",
+          "where": "page 1, total paid, bottom right"
+        },
+        "invoices_settled": {
+          "value": [
+            "INV-2026-1062",
+            "INV-2026-1068"
+          ],
+          "where": "page 1, invoice table, left column"
+        }
+      },
+      "mess_cases": [
+        1
+      ],
+      "scanned": true,
+      "degradation": {
+        "case": 1,
+        "crop_below_pt": null,
+        "annotate_at_pt": null,
+        "annotation": null
+      }
+    },
+    {
+      "document_id": "REM-2026-5011",
+      "document_type": "remittance",
+      "source_file": "REM-2026-5011.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "remittance_ref": {
+          "value": "REM-2026-5011",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Braemar Retail Corporation",
+          "where": "page 1, payment-from block, upper left"
+        },
+        "payment_date": {
+          "value": "2026-07-05",
+          "where": "page 1, header block, right"
+        },
+        "amount_paid": {
+          "value": "92825.52",
+          "where": "page 1, total paid, bottom right"
+        },
+        "invoices_settled": {
+          "value": [
+            "INV-2026-1050",
+            "INV-2026-1392",
+            "INV-2026-1032"
+          ],
+          "where": "page 1, invoice table, left column"
+        }
+      }
+    },
+    {
+      "document_id": "REM-2026-7291",
+      "document_type": "remittance",
+      "source_file": "scan_20260814_123094.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "remittance_ref": {
+          "value": "REM-2026-7291",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Quarrymoor Transit Partners",
+          "where": "page 1, payment-from block, upper left"
+        },
+        "payment_date": {
+          "value": "2026-07-16",
+          "where": "page 1, header block, right"
+        },
+        "amount_paid": {
+          "value": "355151.75",
+          "where": "page 1, total paid, bottom right"
+        },
+        "invoices_settled": {
+          "value": [
+            "INV-2026-1512"
+          ],
+          "where": "page 1, invoice table, left column"
+        }
+      },
+      "mess_cases": [
+        1
+      ],
+      "scanned": true,
+      "degradation": {
+        "case": 1,
+        "crop_below_pt": null,
+        "annotate_at_pt": null,
+        "annotation": null
+      }
+    },
+    {
+      "document_id": "REM-2026-7790",
+      "document_type": "remittance",
+      "source_file": "INV-2026-1392.pdf",
+      "pages": [
+        2,
+        2
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "remittance_ref": {
+          "value": "REM-2026-7790",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Fernhollow Financial Trust",
+          "where": "page 1, payment-from block, upper left"
+        },
+        "payment_date": {
+          "value": "2026-07-13",
+          "where": "page 1, header block, right"
+        },
+        "amount_paid": {
+          "value": "234287.77",
+          "where": "page 1, total paid, bottom right"
+        },
+        "invoices_settled": {
+          "value": [
+            "INV-2026-1614",
+            "INV-2026-1596"
+          ],
+          "where": "page 1, invoice table, left column"
+        }
+      }
+    },
+    {
+      "document_id": "REM-2026-8461",
+      "document_type": "remittance",
+      "source_file": "scan_20260814_123410.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "remittance_ref": {
+          "value": "REM-2026-8461",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Thornbury Retail Partners",
+          "where": "page 1, payment-from block, upper left"
+        },
+        "payment_date": {
+          "value": "2026-08-29",
+          "where": "page 1, header block, right"
+        },
+        "amount_paid": {
+          "value": "68931.80",
+          "where": "page 1, total paid, bottom right"
+        },
+        "invoices_settled": {
+          "value": [
+            "INV-2026-1494",
+            "INV-2026-1500",
+            "INV-2026-1506"
+          ],
+          "where": "page 1, invoice table, left column"
+        }
+      },
+      "mess_cases": [
+        1
+      ],
+      "scanned": true,
+      "degradation": {
+        "case": 1,
+        "crop_below_pt": null,
+        "annotate_at_pt": null,
+        "annotation": null
+      }
+    },
+    {
+      "document_id": "REM-2026-8784",
+      "document_type": "remittance",
+      "source_file": "scan_20260814_123712.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "remittance_ref": {
+          "value": "REM-2026-8784",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Ashcombe Health Partners",
+          "where": "page 1, payment-from block, upper left"
+        },
+        "payment_date": {
+          "value": "2026-07-15",
+          "where": "page 1, header block, right"
+        },
+        "amount_paid": {
+          "value": "111784.30",
+          "where": "page 1, total paid, bottom right"
+        },
+        "invoices_settled": {
+          "value": [
+            "INV-2026-0906",
+            "INV-2026-1212",
+            "INV-2026-1326"
+          ],
+          "where": "page 1, invoice table, left column"
+        }
+      },
+      "mess_cases": [
+        1
+      ],
+      "scanned": true,
+      "degradation": {
+        "case": 1,
+        "crop_below_pt": null,
+        "annotate_at_pt": null,
+        "annotation": null
+      }
+    },
+    {
+      "document_id": "REM-2026-9099",
+      "document_type": "remittance",
+      "source_file": "REM-2026-9099.pdf",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "remittance_ref": {
+          "value": "REM-2026-9099",
+          "where": "page 1, header block, right"
+        },
+        "client_name": {
+          "value": "Oakhaven Logistics Collective",
+          "where": "page 1, payment-from block, upper left"
+        },
+        "payment_date": {
+          "value": "2026-08-14",
+          "where": "page 1, header block, right"
+        },
+        "amount_paid": {
+          "value": "84118.32",
+          "where": "page 1, total paid, bottom right"
+        },
+        "invoices_settled": {
+          "value": [
+            "INV-2026-0876"
+          ],
+          "where": "page 1, invoice table, left column"
+        }
+      }
+    },
+    {
+      "document_id": "SOW-2025-008",
+      "document_type": "sow",
+      "source_file": "Braemar Retail Corporation - SOW - SOW-2025-008 FINAL v3 (signed).docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "sow_ref": {
+          "value": "SOW-2025-008",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Braemar Retail Corporation",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Regulatory Reporting Programme",
+          "where": "page 1, summary table"
+        },
+        "fee_type": {
+          "value": "Fixed fee",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "1020.00",
+          "where": "page 1, summary table"
+        },
+        "ceiling_amount": {
+          "value": "274176.00",
+          "where": "page 1, summary table"
+        },
+        "start_date": {
+          "value": "2025-11-16",
+          "where": "page 1, summary table"
+        },
+        "end_date": {
+          "value": "2027-05-12",
+          "where": "page 1, summary table"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, summary table"
+        }
+      }
+    },
+    {
+      "document_id": "SOW-2025-011",
+      "document_type": "sow",
+      "source_file": "Lowmarsh Retail Partners - SOW - SOW-2025-011 FINAL v3 (signed).docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "sow_ref": {
+          "value": "SOW-2025-011",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Lowmarsh Retail Partners",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Inventory Modernisation",
+          "where": "page 1, summary table"
+        },
+        "fee_type": {
+          "value": "Fixed fee",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "4940.00",
+          "where": "page 1, summary table"
+        },
+        "ceiling_amount": {
+          "value": "1332713.20",
+          "where": "page 1, summary table"
+        },
+        "start_date": {
+          "value": "2025-10-11",
+          "where": "page 1, summary table"
+        },
+        "end_date": {
+          "value": "2027-05-02",
+          "where": "page 1, summary table"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, summary table"
+        }
+      }
+    },
+    {
+      "document_id": "SOW-2025-013",
+      "document_type": "sow",
+      "source_file": "Ashcombe Health Partners - SOW - SOW-2025-013 FINAL v3 (signed).docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "sow_ref": {
+          "value": "SOW-2025-013",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Ashcombe Health Partners",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Payments Assessment",
+          "where": "page 1, summary table"
+        },
+        "fee_type": {
+          "value": "Time and materials",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "3200.00",
+          "where": "page 1, summary table"
+        },
+        "ceiling_amount": {
+          "value": "812800.00",
+          "where": "page 1, summary table"
+        },
+        "start_date": {
+          "value": "2025-09-28",
+          "where": "page 1, summary table"
+        },
+        "end_date": {
+          "value": "2026-12-08",
+          "where": "page 1, summary table"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, summary table"
+        }
+      }
+    },
+    {
+      "document_id": "SOW-2025-015",
+      "document_type": "sow",
+      "source_file": "Ashcombe Health Partners - SOW - SOW-2025-015 FINAL v3 (signed).docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "sow_ref": {
+          "value": "SOW-2025-015",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Ashcombe Health Partners",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Workforce Planning Programme",
+          "where": "page 1, summary table"
+        },
+        "fee_type": {
+          "value": "Time and materials",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "3540.00",
+          "where": "page 1, summary table"
+        },
+        "ceiling_amount": {
+          "value": "1069080.00",
+          "where": "page 1, summary table"
+        },
+        "start_date": {
+          "value": "2025-11-04",
+          "where": "page 1, summary table"
+        },
+        "end_date": {
+          "value": "2026-10-16",
+          "where": "page 1, summary table"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, summary table"
+        }
+      }
+    },
+    {
+      "document_id": "SOW-2025-016",
+      "document_type": "sow",
+      "source_file": "Braemar Retail Corporation - SOW - SOW-2025-016 FINAL v3 (signed).docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "sow_ref": {
+          "value": "SOW-2025-016",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Braemar Retail Corporation",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Field Operations Rollout",
+          "where": "page 1, summary table"
+        },
+        "fee_type": {
+          "value": "Time and materials",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "7980.00",
+          "where": "page 1, summary table"
+        },
+        "ceiling_amount": {
+          "value": "1955100.00",
+          "where": "page 1, summary table"
+        },
+        "start_date": {
+          "value": "2025-09-01",
+          "where": "page 1, summary table"
+        },
+        "end_date": {
+          "value": "2027-03-09",
+          "where": "page 1, summary table"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, summary table"
+        }
+      }
+    },
+    {
+      "document_id": "SOW-2025-018",
+      "document_type": "sow",
+      "source_file": "Thornbury Retail Partners - SOW - SOW-2025-018 FINAL v3 (signed).docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "sow_ref": {
+          "value": "SOW-2025-018",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Thornbury Retail Partners",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Payments Modernisation",
+          "where": "page 1, summary table"
+        },
+        "fee_type": {
+          "value": "Fixed fee",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "820.00",
+          "where": "page 1, summary table"
+        },
+        "ceiling_amount": {
+          "value": "217906.80",
+          "where": "page 1, summary table"
+        },
+        "start_date": {
+          "value": "2025-12-04",
+          "where": "page 1, summary table"
+        },
+        "end_date": {
+          "value": "2026-12-04",
+          "where": "page 1, summary table"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, summary table"
+        }
+      }
+    },
+    {
+      "document_id": "SOW-2025-019",
+      "document_type": "sow",
+      "source_file": "Thornbury Retail Partners - SOW - SOW-2025-019 FINAL v3 (signed).docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "sow_ref": {
+          "value": "SOW-2025-019",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Thornbury Retail Partners",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Grid Analytics Assessment",
+          "where": "page 1, summary table"
+        },
+        "fee_type": {
+          "value": "Time and materials",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "940.00",
+          "where": "page 1, summary table"
+        },
+        "ceiling_amount": {
+          "value": "262260.00",
+          "where": "page 1, summary table"
+        },
+        "start_date": {
+          "value": "2025-12-03",
+          "where": "page 1, summary table"
+        },
+        "end_date": {
+          "value": "2026-10-10",
+          "where": "page 1, summary table"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, summary table"
+        }
+      }
+    },
+    {
+      "document_id": "SOW-2025-020",
+      "document_type": "sow",
+      "source_file": "Quarrymoor Transit Partners - SOW - SOW-2025-020 FINAL v3 (signed).docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "sow_ref": {
+          "value": "SOW-2025-020",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Quarrymoor Transit Partners",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Inventory Implementation",
+          "where": "page 1, summary table"
+        },
+        "fee_type": {
+          "value": "Fixed fee",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "4840.00",
+          "where": "page 1, summary table"
+        },
+        "ceiling_amount": {
+          "value": "1154243.20",
+          "where": "page 1, summary table"
+        },
+        "start_date": {
+          "value": "2025-11-30",
+          "where": "page 1, summary table"
+        },
+        "end_date": {
+          "value": "2027-04-16",
+          "where": "page 1, summary table"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, summary table"
+        }
+      }
+    },
+    {
+      "document_id": "SOW-2025-023",
+      "document_type": "sow",
+      "source_file": "Fernhollow Financial Trust - SOW - SOW-2025-023 FINAL v3 (signed).docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "sow_ref": {
+          "value": "SOW-2025-023",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Fernhollow Financial Trust",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Asset Register Assessment",
+          "where": "page 1, summary table"
+        },
+        "fee_type": {
+          "value": "Fixed fee",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "1840.00",
+          "where": "page 1, summary table"
+        },
+        "ceiling_amount": {
+          "value": "455731.20",
+          "where": "page 1, summary table"
+        },
+        "start_date": {
+          "value": "2025-12-30",
+          "where": "page 1, summary table"
+        },
+        "end_date": {
+          "value": "2027-01-11",
+          "where": "page 1, summary table"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, summary table"
+        }
+      }
+    },
+    {
+      "document_id": "SOW-2025-025",
+      "document_type": "sow",
+      "source_file": "Stonebridge Energy Group - SOW - SOW-2025-025 FINAL v3 (signed).docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "sow_ref": {
+          "value": "SOW-2025-025",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Stonebridge Energy Group",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Billing Platform Implementation",
+          "where": "page 1, summary table"
+        },
+        "fee_type": {
+          "value": "Time and materials",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "2440.00",
+          "where": "page 1, summary table"
+        },
+        "ceiling_amount": {
+          "value": "688080.00",
+          "where": "page 1, summary table"
+        },
+        "start_date": {
+          "value": "2025-11-11",
+          "where": "page 1, summary table"
+        },
+        "end_date": {
+          "value": "2026-10-25",
+          "where": "page 1, summary table"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, summary table"
+        }
+      }
+    },
+    {
+      "document_id": "SOW-2026-002",
+      "document_type": "sow",
+      "source_file": "Oakhaven Logistics Collective - SOW - SOW-2026-002 FINAL v3 (signed).docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "sow_ref": {
+          "value": "SOW-2026-002",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Oakhaven Logistics Collective",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Credit Risk Migration",
+          "where": "page 1, summary table"
+        },
+        "fee_type": {
+          "value": "Fixed fee",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "1980.00",
+          "where": "page 1, summary table"
+        },
+        "ceiling_amount": {
+          "value": "420591.60",
+          "where": "page 1, summary table"
+        },
+        "start_date": {
+          "value": "2026-01-28",
+          "where": "page 1, summary table"
+        },
+        "end_date": {
+          "value": "2026-08-21",
+          "where": "page 1, summary table"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, summary table"
+        }
+      }
+    },
+    {
+      "document_id": "SOW-2026-003",
+      "document_type": "sow",
+      "source_file": "Ashcombe Health Partners - SOW - SOW-2026-003 FINAL v3 (signed).docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "sow_ref": {
+          "value": "SOW-2026-003",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Ashcombe Health Partners",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Revenue Assurance Optimisation",
+          "where": "page 1, summary table"
+        },
+        "fee_type": {
+          "value": "Time and materials",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "940.00",
+          "where": "page 1, summary table"
+        },
+        "ceiling_amount": {
+          "value": "232180.00",
+          "where": "page 1, summary table"
+        },
+        "start_date": {
+          "value": "2026-01-09",
+          "where": "page 1, summary table"
+        },
+        "end_date": {
+          "value": "2026-10-31",
+          "where": "page 1, summary table"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, summary table"
+        }
+      }
+    },
+    {
+      "document_id": "SOW-2026-005",
+      "document_type": "sow",
+      "source_file": "Pentland Media Group - SOW - SOW-2026-005 FINAL v3 (signed).docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "sow_ref": {
+          "value": "SOW-2026-005",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Pentland Media Group",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Procurement Modernisation",
+          "where": "page 1, summary table"
+        },
+        "fee_type": {
+          "value": "Fixed fee",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "2690.00",
+          "where": "page 1, summary table"
+        },
+        "ceiling_amount": {
+          "value": "133038.43",
+          "where": "page 1, summary table"
+        },
+        "start_date": {
+          "value": "2026-01-31",
+          "where": "page 1, summary table"
+        },
+        "end_date": {
+          "value": "2026-10-10",
+          "where": "page 1, summary table"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, summary table"
+        }
+      }
+    },
+    {
+      "document_id": "SOW-2026-007",
+      "document_type": "sow",
+      "source_file": "Braemar Retail Corporation - SOW - SOW-2026-007 FINAL v3 (signed).docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "sow_ref": {
+          "value": "SOW-2026-007",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Braemar Retail Corporation",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Revenue Assurance Discovery",
+          "where": "page 1, summary table"
+        },
+        "fee_type": {
+          "value": "Time and materials",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "1480.00",
+          "where": "page 1, summary table"
+        },
+        "ceiling_amount": {
+          "value": "393680.00",
+          "where": "page 1, summary table"
+        },
+        "start_date": {
+          "value": "2026-02-19",
+          "where": "page 1, summary table"
+        },
+        "end_date": {
+          "value": "2027-02-27",
+          "where": "page 1, summary table"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, summary table"
+        }
+      }
+    },
+    {
+      "document_id": "SOW-2026-009",
+      "document_type": "sow",
+      "source_file": "Northfield Municipal Group - SOW - SOW-2026-009 FINAL v3 (signed).docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "sow_ref": {
+          "value": "SOW-2026-009",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Northfield Municipal Group",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Pricing Modernisation",
+          "where": "page 1, summary table"
+        },
+        "fee_type": {
+          "value": "Fixed fee",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "780.00",
+          "where": "page 1, summary table"
+        },
+        "ceiling_amount": {
+          "value": "241737.60",
+          "where": "page 1, summary table"
+        },
+        "start_date": {
+          "value": "2026-01-23",
+          "where": "page 1, summary table"
+        },
+        "end_date": {
+          "value": "2026-11-10",
+          "where": "page 1, summary table"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, summary table"
+        }
+      }
+    },
+    {
+      "document_id": "SOW-2026-012",
+      "document_type": "sow",
+      "source_file": "Stonebridge Energy Group - SOW - SOW-2026-012 FINAL v3 (signed).docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "sow_ref": {
+          "value": "SOW-2026-012",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Stonebridge Energy Group",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Credit Risk Programme",
+          "where": "page 1, summary table"
+        },
+        "fee_type": {
+          "value": "Time and materials",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "1480.00",
+          "where": "page 1, summary table"
+        },
+        "ceiling_amount": {
+          "value": "478040.00",
+          "where": "page 1, summary table"
+        },
+        "start_date": {
+          "value": "2026-01-14",
+          "where": "page 1, summary table"
+        },
+        "end_date": {
+          "value": "2026-09-24",
+          "where": "page 1, summary table"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, summary table"
+        }
+      }
+    },
+    {
+      "document_id": "SOW-2026-022",
+      "document_type": "sow",
+      "source_file": "Fernhollow Financial Trust - SOW - SOW-2026-022 FINAL v3 (signed).docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "sow_ref": {
+          "value": "SOW-2026-022",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Fernhollow Financial Trust",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Billing Platform Assessment",
+          "where": "page 1, summary table"
+        },
+        "fee_type": {
+          "value": "Time and materials",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "1520.00",
+          "where": "page 1, summary table"
+        },
+        "ceiling_amount": {
+          "value": "443840.00",
+          "where": "page 1, summary table"
+        },
+        "start_date": {
+          "value": "2026-02-19",
+          "where": "page 1, summary table"
+        },
+        "end_date": {
+          "value": "2027-01-25",
+          "where": "page 1, summary table"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, summary table"
+        }
+      }
+    },
+    {
+      "document_id": "SOW-2026-029",
+      "document_type": "sow",
+      "source_file": "Merrivale Maritime Corporation - SOW - SOW-2026-029 FINAL v3 (signed).docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "sow_ref": {
+          "value": "SOW-2026-029",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Merrivale Maritime Corporation",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Grid Analytics Integration",
+          "where": "page 1, summary table"
+        },
+        "fee_type": {
+          "value": "Fixed fee",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "1960.00",
+          "where": "page 1, summary table"
+        },
+        "ceiling_amount": {
+          "value": "482904.80",
+          "where": "page 1, summary table"
+        },
+        "start_date": {
+          "value": "2026-01-26",
+          "where": "page 1, summary table"
+        },
+        "end_date": {
+          "value": "2026-12-26",
+          "where": "page 1, summary table"
+        },
+        "payment_terms": {
+          "value": "Net 30 days from date of issue",
+          "where": "page 1, summary table"
+        }
+      }
+    },
+    {
+      "document_id": "SOW-2025-011-A3",
+      "document_type": "sow_amendment",
+      "source_file": "Lowmarsh Retail Partners - SOW-2025-011 amendment A3.docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": "SOW-2025-011",
+      "duplicate_of": null,
+      "fields": {
+        "amendment_ref": {
+          "value": "SOW-2025-011-A3",
+          "where": "page 1, summary table"
+        },
+        "sow_ref": {
+          "value": "SOW-2025-011",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Lowmarsh Retail Partners",
+          "where": "page 1, summary table"
+        },
+        "effective_date": {
+          "value": "2025-12-13",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Inventory Modernisation",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "4940.00",
+          "where": "page 1, revised ceiling table"
+        },
+        "ceiling_amount": {
+          "value": "1332713.20",
+          "where": "page 1, revised ceiling table"
+        },
+        "end_date": {
+          "value": "2027-05-02",
+          "where": "page 1, revised ceiling table"
+        },
+        "revised_ceiling_hours": {
+          "value": "6175.00",
+          "where": "page 1, revised ceiling table"
+        },
+        "revised_ceiling_amount": {
+          "value": "1665891.50",
+          "where": "page 1, revised ceiling table"
+        },
+        "revised_end_date": {
+          "value": "2027-06-30",
+          "where": "page 1, revised ceiling table"
+        }
+      },
+      "mess_cases": [
+        4
+      ]
+    },
+    {
+      "document_id": "SOW-2025-015-A4",
+      "document_type": "sow_amendment",
+      "source_file": "Ashcombe Health Partners - SOW-2025-015 amendment A4.docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": "SOW-2025-015",
+      "duplicate_of": null,
+      "fields": {
+        "amendment_ref": {
+          "value": "SOW-2025-015-A4",
+          "where": "page 1, summary table"
+        },
+        "sow_ref": {
+          "value": "SOW-2025-015",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Ashcombe Health Partners",
+          "where": "page 1, summary table"
+        },
+        "effective_date": {
+          "value": "2026-04-22",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Workforce Planning Programme",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "3540.00",
+          "where": "page 1, revised ceiling table"
+        },
+        "ceiling_amount": {
+          "value": "1069080.00",
+          "where": "page 1, revised ceiling table"
+        },
+        "end_date": {
+          "value": "2026-10-16",
+          "where": "page 1, revised ceiling table"
+        },
+        "revised_ceiling_hours": {
+          "value": "4000.20",
+          "where": "page 1, revised ceiling table"
+        },
+        "revised_ceiling_amount": {
+          "value": "1208060.40",
+          "where": "page 1, revised ceiling table"
+        },
+        "revised_end_date": {
+          "value": "2027-01-25",
+          "where": "page 1, revised ceiling table"
+        }
+      },
+      "mess_cases": [
+        4
+      ]
+    },
+    {
+      "document_id": "SOW-2025-019-A5",
+      "document_type": "sow_amendment",
+      "source_file": "Thornbury Retail Partners - SOW-2025-019 amendment A5.docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": "SOW-2025-019",
+      "duplicate_of": null,
+      "fields": {
+        "amendment_ref": {
+          "value": "SOW-2025-019-A5",
+          "where": "page 1, summary table"
+        },
+        "sow_ref": {
+          "value": "SOW-2025-019",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Thornbury Retail Partners",
+          "where": "page 1, summary table"
+        },
+        "effective_date": {
+          "value": "2026-03-03",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Grid Analytics Assessment",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "940.00",
+          "where": "page 1, revised ceiling table"
+        },
+        "ceiling_amount": {
+          "value": "262260.00",
+          "where": "page 1, revised ceiling table"
+        },
+        "end_date": {
+          "value": "2026-10-10",
+          "where": "page 1, revised ceiling table"
+        },
+        "revised_ceiling_hours": {
+          "value": "1297.20",
+          "where": "page 1, revised ceiling table"
+        },
+        "revised_ceiling_amount": {
+          "value": "361918.80",
+          "where": "page 1, revised ceiling table"
+        },
+        "revised_end_date": {
+          "value": "2026-12-07",
+          "where": "page 1, revised ceiling table"
+        }
+      },
+      "mess_cases": [
+        4
+      ]
+    },
+    {
+      "document_id": "SOW-2025-023-A6",
+      "document_type": "sow_amendment",
+      "source_file": "Fernhollow Financial Trust - SOW-2025-023 amendment A6.docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": "SOW-2025-023",
+      "duplicate_of": null,
+      "fields": {
+        "amendment_ref": {
+          "value": "SOW-2025-023-A6",
+          "where": "page 1, summary table"
+        },
+        "sow_ref": {
+          "value": "SOW-2025-023",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Fernhollow Financial Trust",
+          "where": "page 1, summary table"
+        },
+        "effective_date": {
+          "value": "2026-06-02",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Asset Register Assessment",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "1840.00",
+          "where": "page 1, revised ceiling table"
+        },
+        "ceiling_amount": {
+          "value": "455731.20",
+          "where": "page 1, revised ceiling table"
+        },
+        "end_date": {
+          "value": "2027-01-11",
+          "where": "page 1, revised ceiling table"
+        },
+        "revised_ceiling_hours": {
+          "value": "2373.60",
+          "where": "page 1, revised ceiling table"
+        },
+        "revised_ceiling_amount": {
+          "value": "587893.25",
+          "where": "page 1, revised ceiling table"
+        },
+        "revised_end_date": {
+          "value": "2027-02-10",
+          "where": "page 1, revised ceiling table"
+        }
+      },
+      "mess_cases": [
+        4
+      ]
+    },
+    {
+      "document_id": "SOW-2026-002-A1",
+      "document_type": "sow_amendment",
+      "source_file": "Oakhaven Logistics Collective - SOW-2026-002 amendment A1.docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": "SOW-2026-002",
+      "duplicate_of": null,
+      "fields": {
+        "amendment_ref": {
+          "value": "SOW-2026-002-A1",
+          "where": "page 1, summary table"
+        },
+        "sow_ref": {
+          "value": "SOW-2026-002",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Oakhaven Logistics Collective",
+          "where": "page 1, summary table"
+        },
+        "effective_date": {
+          "value": "2026-07-26",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Credit Risk Migration",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "1980.00",
+          "where": "page 1, revised ceiling table"
+        },
+        "ceiling_amount": {
+          "value": "420591.60",
+          "where": "page 1, revised ceiling table"
+        },
+        "end_date": {
+          "value": "2026-08-21",
+          "where": "page 1, revised ceiling table"
+        },
+        "revised_ceiling_hours": {
+          "value": "2316.60",
+          "where": "page 1, revised ceiling table"
+        },
+        "revised_ceiling_amount": {
+          "value": "492092.17",
+          "where": "page 1, revised ceiling table"
+        },
+        "revised_end_date": {
+          "value": "2026-12-04",
+          "where": "page 1, revised ceiling table"
+        }
+      },
+      "mess_cases": [
+        4
+      ]
+    },
+    {
+      "document_id": "SOW-2026-007-A2",
+      "document_type": "sow_amendment",
+      "source_file": "Braemar Retail Corporation - SOW-2026-007 amendment A2.docx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": "SOW-2026-007",
+      "duplicate_of": null,
+      "fields": {
+        "amendment_ref": {
+          "value": "SOW-2026-007-A2",
+          "where": "page 1, summary table"
+        },
+        "sow_ref": {
+          "value": "SOW-2026-007",
+          "where": "page 1, summary table"
+        },
+        "client_name": {
+          "value": "Braemar Retail Corporation",
+          "where": "page 1, summary table"
+        },
+        "effective_date": {
+          "value": "2026-07-17",
+          "where": "page 1, summary table"
+        },
+        "engagement_name": {
+          "value": "Revenue Assurance Discovery",
+          "where": "page 1, summary table"
+        },
+        "ceiling_hours": {
+          "value": "1480.00",
+          "where": "page 1, revised ceiling table"
+        },
+        "ceiling_amount": {
+          "value": "393680.00",
+          "where": "page 1, revised ceiling table"
+        },
+        "end_date": {
+          "value": "2027-02-27",
+          "where": "page 1, revised ceiling table"
+        },
+        "revised_ceiling_hours": {
+          "value": "1687.20",
+          "where": "page 1, revised ceiling table"
+        },
+        "revised_ceiling_amount": {
+          "value": "448795.20",
+          "where": "page 1, revised ceiling table"
+        },
+        "revised_end_date": {
+          "value": "2027-04-01",
+          "where": "page 1, revised ceiling table"
+        }
+      },
+      "mess_cases": [
+        4
+      ]
+    },
+    {
+      "document_id": "STM-2026-101",
+      "document_type": "statement",
+      "source_file": "Statement of account - Ashcombe Health Partners - Aug 2026.xlsx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "statement_ref": {
+          "value": "STM-2026-101",
+          "where": "Statement tab, header block, cells A6:B10"
+        },
+        "client_name": {
+          "value": "Ashcombe Health Partners",
+          "where": "Statement tab, header block, cells A6:B10"
+        },
+        "statement_date": {
+          "value": "2026-08-31",
+          "where": "Statement tab, header block, cells A6:B10"
+        },
+        "billing_period": {
+          "value": "2026-08",
+          "where": "Statement tab, header block, cells A6:B10"
+        },
+        "total_outstanding": {
+          "value": "165515.10",
+          "where": "Statement tab, cell E17",
+          "expected_confidence": "unreadable",
+          "note": "the cell holds an uncalculated =SUM() with no cached result, so no figure is stored in the file; it can be recomputed from the rows but it is not asserted"
+        },
+        "invoice_count": {
+          "value": 3,
+          "where": "Statement tab, cell E18",
+          "expected_confidence": "unreadable",
+          "note": "the cell holds an uncalculated =COUNT() with no cached result; the rows can be counted but the document states no total"
+        }
+      }
+    },
+    {
+      "document_id": "STM-2026-102",
+      "document_type": "statement",
+      "source_file": "Statement of account - Fernhollow Financial Trust - Aug 2026.xlsx",
+      "pages": [
+        1,
+        1
+      ],
+      "supersedes": null,
+      "duplicate_of": null,
+      "fields": {
+        "statement_ref": {
+          "value": "STM-2026-102",
+          "where": "Statement tab, header block, cells A6:B10"
+        },
+        "client_name": {
+          "value": "Fernhollow Financial Trust",
+          "where": "Statement tab, header block, cells A6:B10"
+        },
+        "statement_date": {
+          "value": "2026-08-31",
+          "where": "Statement tab, header block, cells A6:B10"
+        },
+        "billing_period": {
+          "value": "2026-08",
+          "where": "Statement tab, header block, cells A6:B10"
+        },
+        "total_outstanding": {
+          "value": "86791.30",
+          "where": "Statement tab, cell E16",
+          "expected_confidence": "unreadable",
+          "note": "the cell holds an uncalculated =SUM() with no cached result, so no figure is stored in the file; it can be recomputed from the rows but it is not asserted"
+        },
+        "invoice_count": {
+          "value": 2,
+          "where": "Statement tab, cell E17",
+          "expected_confidence": "unreadable",
+          "note": "the cell holds an uncalculated =COUNT() with no cached result; the rows can be counted but the document states no total"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "seed": 20260903,
+  "dpi": 200,
+  "inbox": "/Users/mikaylastewart/Brain/Liam/DocMess/spike/inbox",
+  "warning": "Never put this file, or anything above inbox/, in front of Cowork.",
+  "documents": [
+    {
+      "filename": "scan_20260814_113255.pdf",
+      "kind": "image-only",
+      "probes": {
+        "verification_code": "VC-L9DY-2722-TYSB",
+        "total_due": "53,052.54",
+        "invoice_number": "INV-2026-2875",
+        "purchase_order": "PO-40389",
+        "client": "Stonebridge Municipal Holdings",
+        "issue_date": "2026-08-22"
+      }
+    },
+    {
+      "filename": "scan_20260814_113587.pdf",
+      "kind": "image-only",
+      "probes": {
+        "verification_code": "VC-AMAE-5559-P1SA",
+        "total_due": "65,100.90",
+        "invoice_number": "INV-2026-2383",
+        "purchase_order": "PO-61663",
+        "client": "Fernhollow Utilities Collective",
+        "issue_date": "2026-08-21"
+      }
+    },
+    {
+      "filename": "scan_20260814_114001.pdf",
+      "kind": "image-only",
+      "probes": {
+        "verification_code": "VC-WNQQ-4725-TK9W",
+        "total_due": "60,996.62",
+        "invoice_number": "INV-2026-1143",
+        "purchase_order": "PO-86920",
+        "client": "Dunmarch Maritime Group",
+        "issue_date": "2026-08-04"
+      }
+    },
+    {
+      "filename": "scan_20260814_114609.pdf",
+      "kind": "image-only",
+      "probes": {
+        "verification_code": "VC-R310-3135-M47Y",
+        "total_due": "45,619.37",
+        "invoice_number": "INV-2026-3094",
+        "purchase_order": "PO-77087",
+        "client": "Pentland Insurance Corporation",
+        "issue_date": "2026-08-25"
+      }
+    },
+    {
+      "filename": "scan_20260814_115148.pdf",
+      "kind": "image-only",
+      "probes": {
+        "verification_code": "VC-7NDF-0869-B4XU",
+        "total_due": "107,077.32",
+        "invoice_number": "INV-2026-4211",
+        "purchase_order": "PO-56274",
+        "client": "Vantage Financial Collective",
+        "issue_date": "2026-08-25"
+      }
+    },
+    {
+      "filename": "scan_20260814_115364.pdf",
+      "kind": "image-only",
+      "probes": {
+        "verification_code": "VC-U4ZA-0775-0KXD",
+        "total_due": "46,218.96",
+        "invoice_number": "INV-2026-4163",
+        "purchase_order": "PO-96117",
+        "client": "Oakhaven Retail Group",
+        "issue_date": "2026-08-28"
+      }
+    },
+    {
+      "filename": "scan_20260814_115872.pdf",
+      "kind": "image-only",
+      "probes": {
+        "verification_code": "VC-WHLS-7972-MF10",
+        "total_due": "93,848.16",
+        "invoice_number": "INV-2026-6659",
+        "purchase_order": "PO-83737",
+        "client": "Granthorpe Financial Partners",
+        "issue_date": "2026-08-17"
+      }
+    },
+    {
+      "filename": "scan_20260814_116472.pdf",
+      "kind": "image-only",
+      "probes": {
+        "verification_code": "VC-S3Y0-7555-VZ0K",
+        "total_due": "63,839.71",
+        "invoice_number": "INV-2026-4500",
+        "purchase_order": "PO-47267",
+        "client": "Havelock Energy Holdings",
+        "issue_date": "2026-08-06"
+      }
+    },
+    {
+      "filename": "scan_20260814_116785.pdf",
+      "kind": "image-only",
+      "probes": {
+        "verification_code": "VC-UV9R-9693-7WHH",
+        "total_due": "60,703.96",
+        "invoice_number": "INV-2026-8154",
+        "purchase_order": "PO-50898",
+        "client": "Northfield Utilities Collective",
+        "issue_date": "2026-08-20"
+      }
+    },
+    {
+      "filename": "scan_20260814_117222.pdf",
+      "kind": "image-only",
+      "probes": {
+        "verification_code": "VC-VAPW-7755-LWLN",
+        "total_due": "129,355.20",
+        "invoice_number": "INV-2026-6859",
+        "purchase_order": "PO-57104",
+        "client": "Alderwick Health Holdings",
+        "issue_date": "2026-08-06"
+      }
+    },
+    {
+      "filename": "INV-2026-4487.pdf",
+      "kind": "text-layer",
+      "probes": {
+        "verification_code": "VC-26Q5-7893-QQ5A",
+        "total_due": "94,346.56",
+        "invoice_number": "INV-2026-4487",
+        "purchase_order": "PO-65359",
+        "client": "Merrivale Media Corporation",
+        "issue_date": "2026-08-22"
+      }
+    }
+  ]
+}
