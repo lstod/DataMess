@@ -16,12 +16,14 @@ venv/
 
 # Planning docs and specs stay private. The exceptions are the things the README links to,
 # because a public README with dead links is worse than no link: evidence/ holds the
-# screenshots and transcripts, and two of the docs are deliverables rather than plans.
+# screenshots and transcripts, writeup.md is the long form of the README, and two of the
+# docs are deliverables rather than plans.
 #
 # docs/notes/ stays private deliberately. Every finding in it that matters is summarised in
-# the README's "What broke" section, which is where a reader will actually look.
+# the "What broke" section of docs/writeup.md, which is where a reader will actually look.
 /docs/*
 !/docs/evidence/
+!/docs/writeup.md
 !/docs/in-a-client-environment.md
 !/docs/recording-shot-list.md
 
